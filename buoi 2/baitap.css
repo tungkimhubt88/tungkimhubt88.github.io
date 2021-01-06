@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2;
+    font-size: 20;
+    
+}
+body{
+    background-color:lavender;
+}
+div{
+    background-color:#ffffff;
+    width: 70%;
+    height: 1200;
+    margin: auto;
+    padding: 60;
+  }
+#quoc-hieu{
+    text-align: center;
+    font-size: x-large;
+}
+#trang-tri{
+    text-align: center;
+}
+h1{
+    font-size: 40;
+    text-align: center;
+
+
+}
+#thong-tin{
+    font-style: italic;
+    
+}
+.noi-dung{
+    vertical-align: auto;
+    text-align: justify;
+}
+.ket-thuc{
+    text-align: center;
+    margin-left: 60%;
+}
+.hop-vien{
+    border-left-style: ridge ;
+}
+.lien-he{
+    padding-left: 20px;
+    font-style: italic;
+}

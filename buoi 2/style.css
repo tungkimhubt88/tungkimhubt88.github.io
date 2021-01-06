@@ -1,0 +1,48 @@
+/* Đây là chú thích trong CSS */
+/* selector * duoc ap dung cho toan bo phan tu */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+}
+p{
+    color: red;
+    background-color:black;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+/* #red cach goi thay the cua the div */
+#red{
+    margin-top: 20px;
+    width: 50%;
+    height: 300px;
+    background-color: red; 
+    /* border-width: 2px;
+    border-color: blue;
+    border-style: solid; */
+    border: 5px solid orange 
+    /* vien cua the div la boder */
+
+}
+#green{
+    margin-top: 50px;
+    width: 50%;
+    height: 300px;
+    background-color: green;
+}
+.style-boder{
+    border: 5px solid orange ;
+
+}
+#radius{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 50px;
+    border-radius: 100px; 
+    /* để bo viên tròn */
+}
