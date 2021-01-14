@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+    text-decoration: none;
+}
+.content{
+    padding: 40px 30px 30px 30px;
+}
+.phan1{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+#hop-1{
+  width: 100%;
+ 
+    
+}
+#hop-1 img{
+   width: 100%;
+   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   margin-top: 20px;
+   height: 500px;
+ }
+.clear{
+    clear: both;
+}
+.hop-phan2{
+    
+    width: 60%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    flex-direction: column;
+    height: 100%;
+}
+.noi-dung2{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    line-height: 30px  ;
+    width: 100%;
+    height: 20%;
+}
+.ndung-anh {
+    overflow: hidden;
+    width: 30%;
+    border-radius: 4px;
+}
+.ndung-anh img{
+    width: 100%;
+    height: 100%;
+}
+.ndung-info{
+    color: #757575;
+    font-size: 12px;
+}
+.phan-2{
+    width: 100%;
+    padding:80px 30px 30px 30px ;
+    height: 200px;
+}
+.list-logogt{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.logogt svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+.name-logogt{
+    margin-top: 15px;
+    color: #464646;
+    padding-left: 15px;
+}
+.rv-logogt {
+    margin-top: 10px;
+    color: #999;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.all{
+    background-color: #e4f2fd;
+    margin-top:100px ;
+    width: 100%;
+    padding:80px 30px 30px 30px ;
+}
+.header-lotrinh{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: #464646;
+    font-weight: 500;
+}
+.list-lotrinh{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.item-lotrinh{
+    width: 32%;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+    background-color: white;
+}
+.item-lotrinh img{
+    max-width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+.infomation-lotrinh{
+    padding: 10px;
+}
+.name-lotrinh{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #464646;
+}
+.rv-lotrinh{
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: #999;
+    font-size: 16px;
+    display: -webkit-box ;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.time-lotrinh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+}
+.sanpham{
+    padding:80px 30px 30px 30px ;
+    /* margin-top:100px ; */
+    width: 100%;
+}
+.list-sanpham{
+    height: 500px;
+    position: relative;
+}
+.dichuyen{
+    height: 40px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.dichuyen-left, .dichuyen-right{
+    width: 40px;
+    height: 40px;
+    font-size: 18px ;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 2px solid #2196f3;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.list-sanpham{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-sanpham{
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    margin: 20px 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+.thumbnail-sanpham{
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.info-sanpham{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+.mota-sanpham{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+.nguoiviet{
+    font-weight: 300;
+    font-size: 15px;
+    color:  #757575;
+}
+.video{
+    background-color:  #e4f2fd;
+    padding:80px 30px 80px 30px ;
+}
+.video iframe{
+width: 100%;
+border-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+   
+
+
