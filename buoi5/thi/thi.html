@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi</title>
+</head>
+<body>
+    <p>
+        Phần 1
+
+CÂU(1) = "Thế nào là nhận dạng sinh trắc học?"
+
+· " Công nghệ nhận dạng sinh học như mồ hôi, hình dáng"
+
+· " Công nghệ nhận dạng dựa trên cử chỉ, tính tình"
+
+· " Không thuộc các công nghệ trên "
+
+· *" Công nghệ sử dụng những thuộc tính vật lý, đặc điểm sinh học riêng của mỗi cá nhân như vân tay, mống mắt, khuôn mặt... để nhận diện"
+
+CÂU(2) = "Tại sao đặc điểm sinh trắc học lại là đối tượng để nhận dạng?"
+
+· " Vì nó không thay đổi"
+
+· " Vì nó dễ nhận dạng bằng các thiết bị công nghệ"
+
+· " Vì nó là duy nhất và mỗi người đều có"
+
+· *" Vì nó phổ biến, duy nhất và không thay đổi theo thời gian "
+
+CÂU(3) = "Một hệ thống nhận dạng sinh trắc học phải có những yêu cầu gì?"
+
+· " Có 2 yêu cầu: chính xác và tiết kiệm"
+
+· " Có 3 yêu cầu: Chính xác, tốc độ và bảo mật"
+
+· " Có 2 yêu cầu: Tốc độ và bảo mật "
+
+· *" Có 3 yêu cầu: Hiệu suất về tóc độ, tài nguyên và độ chính xác, Vô hại với con người và Bảo mật an toàn"
+
+CÂU(4) = "Tại sao vân tay lại được chọn để nhận dạng sinh trắc học?"
+
+· *" Tất cả yếu tố trên"
+
+· " Vì vân tay bất biến theo thời gian"
+
+· " Vì vân tay phổ biến ai cũng có, trừ trường hợp bị bong da"
+
+· " Vì vân tay có những đặc trưng duy nhất"
+
+CÂU(5) = " Những đặc trưng chính nào của vân tay dùng để nhận dạng?"
+
+· " Các điểm đứt đoạn "
+
+· " Tất cả các điểm trên"
+
+· *" Các điểm chia hai(bifurcation) và điểm kết thúc lằn(ridge ending)"
+
+· " Các lằn(ridges) và các lõm(valley)"
+
+CÂU(6) = " Tại sao phải tiền xử lý ảnh vân tay trước khi nhận dạng?"
+
+· " Vì ảnh vân tay thu được qua thiết bị chưa đủ độ nét"
+
+· " Vì các nét vân tay thu được qua thiết bị chưa nhận dạng được"
+
+· *" Tất cả các điểm trên "
+
+· " Vì ảnh vân tay thu được qua thiết bị bị nhiễu "
+
+CÂU(7) = " Có mấy bước chính trong tiền xử lý ảnh vân tay?"
+
+· " Hai bước, lọc và làm mảnh ảnh"
+
+· " Bốn bước: khử nhiễu, lọc, làm mảnh, đối sánh vân tay"
+
+· " Có một bước: Làm mảnh ảnh "
+
+· *" Ba bước, lọc, nhị phân cục bộ, làm mảnh ảnh "
+
+CÂU(8) = " Giải thuật làm mảnh ảnh Zhang-Suen có mấy điều kiện?"
+
+· " Hai điều kiện: Số lần chuyển từ 0 sang 1 khi đi theo chiều kim đồng hồ, và số lân cạnh có ảnh xung quanh nó. "
+
+· " Ba điều kiện: AP=1, BP<6, P2*P4*P6=0 "
+
+· " Có 5 điều kiện "
+
+· *" Bốn điều kiện: AP=1, BP<6, P2*P4*P6=0, P4*P6*P8=0."
+
+CÂU(9) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, AP có ý nghĩa gì?"
+
+· " Số lân cận điểm ảnh xung quanh ."
+
+· *" Số lần chuyển từ 0 sang 1 khi đi theo chiều kim đồng hồ P2->P9 rồi trở về P2 "
+
+· " Số lần chuyển từ 0 sang 1 khi đi từ P2->P9 "
+
+· " Cả 3 điều trên "
+
+CÂU(10) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, BP có ý nghĩa gì?"
+
+· " Số lần chuyển từ 0 sang 1 khi đi theo chiều kim đồng hồ P2->P9 rồi trở về P2 "
+
+· " Cả 3 điều trên "
+
+· " Số lần chuyển từ 0 sang 1 khi đi từ P2->P9 "
+
+· *" Số lân cận điểm ảnh xung quanh bằng 1."
+
+CÂU(11) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, vòng lặp 1, điều kiện thứ 3 là gì? "
+
+· " BP<=6 và >=2 "
+
+· *"P2*P4*P6=0 "
+
+· " AP=1 "
+
+· " P4*P6*P8=0 "
+
+CÂU(12) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, vòng lặp 1, điều kiện thứ 4 là gì? "
+
+· " AP=1 "
+
+· " BP<=6 và >=2 "
+
+· *" P4*P6*P8=0 "
+
+· "P2*P4*P6=0 "
+
+CÂU(13) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, vòng lặp 2, điều kiện thứ 3 là gì? "
+
+· *"P2*P4*P8=0 "
+
+· " AP=1 "
+
+· " P2*P6*P8=0 "
+
+· " BP<=6 và >=2 "
+
+CÂU(14) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, vòng lặp 2, điều kiện thứ 4 là gì? "
+
+· " AP=1 "
+
+· "P2*P4*P8=0 "
+
+· " BP<=6 và >=2 "
+
+· *" P2*P6*P8=0 "
+
+CÂU(15) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, vòng lặp 1, điều kiện thứ 1 là gì? "
+
+· " BP<=6 và >=2 "
+
+· " P4*P6*P8=0 "
+
+· *" AP=1 "
+
+· "P2*P4*P6=0 "
+
+CÂU(16) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, vòng lặp 1, điều kiện thứ 2 là gì? "
+
+· *" BP<=6 và >=2 "
+
+· " AP=1 "
+
+· "P2*P4*P6=0 "
+
+· " P4*P6*P8=0 "
+
+CÂU(17) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, vòng lặp 2, điều kiện thứ 1 là gì? "
+
+· "P2*P4*P8=0 "
+
+· " P2*P6*P8=0 "
+
+· " BP<=6 và >=2 "
+
+· *" AP=1 "
+
+CÂU(18) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, vòng lặp 2, điều kiện thứ 2 là gì? "
+
+· *" BP<=6 và >=2 "
+
+· " AP=1 "
+
+· " P2*P6*P8=0 "
+
+· "P2*P4*P8=0 "
+
+CÂU(19) = " Điều kiện kết thúc giải thuật Zhang-Suen là gì? "
+
+· " Hết vòng lặp 1, không xóa được điểm ảnh nào sẽ kết thúc "
+
+· *" Hết hai vòng lặp, không xóa được điểm ảnh nào sẽ kết thúc"
+
+· " Hết hai vòng lặp, sẽ lặp thêm 1 vòng nữa để xóa tiếp "
+
+· " Hết vòng lặp 2, không xóa được điểm ảnh nào trong vòng lặp 2 sẽ kết thúc "
+
+CÂU(20) = " Trong giải thuật Zhang-Suen, Nếu A[i,j] là ô trung tâm, trục tung là I, trục hoành là J, thì P2 là ? "
+
+· *" A[i-1,j] "
+
+· " A[i-1,j-1] "
+
+· " A[i-1,j+1] "
+
+· " A[i,j-1] "
+
+CÂU(21) = " Trong giải thuật Zhang-Suen, Nếu A[i,j] là ô trung tâm, trục tung là I, trục hoành là J, thì P3 là ? "
+
+· " A[i,j-1] "
+
+· " A[i-1,j] "
+
+· " A[i+1,j+1] "
+
+· *" A[i-1,j+1] "
+
+CÂU(22) = " Trong giải thuật Zhang-Suen, Nếu A[i,j] là ô trung tâm, trục tung là I, trục hoành là J, thì P7 là ? "
+
+· *" A[i+1,j-1] "
+
+· " A[i-1,j] "
+
+· " A[i-1,j+1] "
+
+· " A[i,j-1] "
+
+CÂU(23) = " Trong giải thuật Zhang-Suen, Nếu A[i,j] là ô trung tâm, trục tung là I, trục hoành là J, thì P10 là ? "
+
+· " A[i-1,j+1] "
+
+· " A[i+1,j-1] "
+
+· *" A[i-1,j] "
+
+· " A[i,j-1] "
+
+CÂU(24) = " Trong giải thuật Zhang-Suen, Nếu A[i,j] là ô trung tâm, trục tung là I, trục hoành là J, thì P11 là ? "
+
+· *" Không tồn tại "
+
+· " A[i-1,j+1] "
+
+· " A[i+1,j-1] "
+
+· " A[i-1,j] "
+
+CÂU(25) = " Giải thuật Crossing Number là gì ? "
+
+· " Là giải thuật đối sánh vân tay "
+
+· *" Là giải thuật nhận dạng đặc trưng vân tay "
+
+· " Là giải thuật khớp mẫu vân tay "
+
+· " Là giải thuật làm mảnh ảnh "
+
+CÂU(26) = " Giải thuật Crossing Number dựa trên cửa sổ có kích thước ? "
+
+· " 2 x 2"
+
+· *" 3 x 3"
+
+· " 5 x 5"
+
+· " 4 x 4"
+
+CÂU(27) = " Công thức tính CNP của Crossing Number là ? "
+
+· " CNP=1/2(|P[i]+P[i+1]|) (i=1->8) "
+
+· *" CNP=1/2(|P[i]-P[i+1]|) (i=1->8)"
+
+· " CNP=1/2(|P[i]-P[i-1]|) (i=1->8) "
+
+· " CNP=1/2(|P[i]-P[i+1]|) (i=1->9)"
+
+CÂU(28) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, I là trục tung, J là trục hoành thì P1 là ? "
+
+· " (i+1,j+1)"
+
+· " (i+1,j)"
+
+· " (i-1.j+1)"
+
+· *" (i-1,j)"
+
+CÂU(29) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, I là trục tung, J là trục hoành thì P2 là ? "
+
+· " (i+1,j)"
+
+· " (i+1,j+1)"
+
+· " (i-1,j+1)"
+
+· *" (i-1.j+1)"
+
+CÂU(30) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, I là trục tung, J là trục hoành thì P4 là ? "
+
+· " (i-1.j+1)"
+
+· *" (i+1,j+1)"
+
+· " (i+1,j)"
+
+· " (i-1,j+1)"
+
+CÂU(31) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, I là trục tung, J là trục hoành thì P6 là ? "
+
+· " (i+1,j+1)"
+
+· *" (i+1,j-1)"
+
+· " (i+1,j)"
+
+· " (i-1.j+1)"
+
+CÂU(32) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, I là trục tung, J là trục hoành thì P9 là ? "
+
+· " (i-1.j+1)"
+
+· " (i-1,j+1)"
+
+· *" (i-1,j)"
+
+· " (i+1,j+1)"
+
+CÂU(33) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, I là trục tung, J là trục hoành thì P10 là ? "
+
+· " (i-1,j+1)"
+
+· " (i-1.j+1)"
+
+· " (i+1,j)"
+
+· *" Không có"
+
+CÂU(34) = " Đối sánh vân tay là gì ? ”
+
+· *" Tìm các điểm đặc trưng tương ứng giữa vân tay quét vào và vân tay mẫu và so sánh với ngưỡng nào đó chấp nhận được"
+
+· " So sánh với ngưỡng cho trước"
+
+· " Gồm khớp mẫu và đối sánh ”
+
+· " Tìm các điểm đặc trưng tương ứng giữa vân tay quét vào và vân tay mẫu, nếu lớn hơn ngưỡng cho trước thì là tương đương"
+
+CÂU(35) = " Đối sánh vân tay gồm các công đoạn chính nào ? ”
+
+· " Rút trích và chọn đặc trưng ”
+
+· " Ba công đoạn: Làm mảnh, rút trích, lưu trữ đặc trưng "
+
+· " Một công đoạn: Khớp mẫu "
+
+· *" Hai công đoạn: Khớp mẫu(alignment) và đối sánh(matching)"
+
+CÂU(36) = " Khớp mẫu vân tay là gì? ”
+
+· " Biến đổi template vân tay thành input vân tay "
+
+· " Biến đổi input vân tay thành template vân tay ”
+
+· *" Đặt vân tay cần đối sánh với vân tay mẫu ở một vị trí sao cho có sự phù hợp giữa chúng theo một ngưỡng nhất định. "
+
+· " Khớp hai mẫu input và tempate thành một mẫu mới "
+
+CÂU(37) = " Các toán tử dùng trong khớp mẫu vân tay ? ”
+
+· " Ma trận quay "
+
+· " Quay và biến đổi Fourier "
+
+· *" Ma trận quay và tịnh tiến"
+
+· " Tịnh tiến . ”
+
+CÂU(38) = " Giải thuật khớp mẫu Alignment bao gồm các bước ? ”
+
+· *" Chọn minutiae của input và template, xoay template theo input, tính mức độ phù hợp của input và template theo ngưỡng.”
+
+· " So sánh các cặp minutiae của input và template "
+
+· " Chọn hai cặp của input và template, và đối sánh"
+
+· " Khớp các mẫu "
+
+CÂU(39) = " Các ứng dụng chính của xử lý ảnh là gì ? ”
+
+· " Tăng độ tương phản "
+
+· *"Nâng cao chất lượng ảnh và phân tích ảnh.”
+
+· " Làm mảnh và tăng cường ảnh "
+
+· " Làm mờ ảnh "
+
+CÂU(40) = " Nhận dạng đặc trưng vân tay nằm trong bước nào của xử lý ảnh ? ”
+
+· *" Nhận dạng và nội suy "
+
+· "Tiền xử lý ảnh.”
+
+· " Phân tích ảnh "
+
+· " Phân đoạn ảnh "
+
+CÂU(41) = " Tiền xử lý ảnh có chức năng gì ? ”
+
+· "Làm mảnh.”
+
+· " Nối các nét "
+
+· "Tăng cường các nét "
+
+· *" Lọc nhiễu và tăng độ tương phản "
+
+CÂU(42) = " Phân đoạn hoặc phân vùng ảnh có chức năng gì ? ”
+
+· *" Tách ảnh đầu vào thành các vùng thành phần để biểu diễn phân tích, nhận dạng.”
+
+· " Lọc nhiễu và tăng độ tương phản "
+
+· " Xóa các điểm ảnh lân cận để phân đoạn điểm ảnh"
+
+· " Liên kết các điểm ảnh lân cận "
+
+CÂU(43) = " Biểu diễn ảnh trong xử lý ảnh có nhiệm vụ gì ? ”
+
+· " Dùng các giải thuật mã hóa hoặc ma trận để biểu diễn "
+
+· " Tách ảnh đầu vào thành các vùng thành phần để biểu diễn phân tích, nhận dạng.”
+
+· *" Biến đổi số liệu thành dạng thích hợp, trích chọn đặc trưng, tách các đặc tính ảnh dưới dạng thông tin định lượng."
+
+· " Mô tả liên kết các điểm ảnh lân cận "
+
+CÂU(44) = " Nhận dạng và nội suy ảnh vân tay là gì ? ”
+
+· " Mô tả liên kết các điểm ảnh lân cận "
+
+· *" Xác định ảnh và so sánh với mẫu chuẩn đã được học từ trước"
+
+· " Biến đổi số liệu thành dạng thích hợp, trích chọn đặc trưng, tách các đặc tính ảnh dưới dạng thông tin định lượng."
+
+· " Tách ảnh đầu vào thành các vùng thành phần để biểu diễn phân tích, nhận dạng.”
+
+CÂU(45) = " Cơ sở tri thức trong xử lý ảnh là gì ? ”
+
+· " Là các công đoạn như tiền xử lý, nhận dạng nội suy, biểu diễn ảnh.”
+
+· " Là tổng hợp các hiểu biết về thông tin, kích cỡ, bảng màu của ảnh."
+
+· " Là phương pháp nội suy ảnh "
+
+· *" Bắt chước các quy trình nhận dạng và xử lý ảnh theo cách con người"
+
+CÂU(46) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, P1 là điểm trung tâm, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 11001111, với P1=1, hãy tính B(P1)= ? ”
+
+· *" 6 "
+
+· " 4”
+
+· " 3 "
+
+· " 2 ”
+
+CÂU(47) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, P là điểm trung tâm, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 11001001, với P1=1, hãy tính B(P1)= ? ”
+
+· *" 4”
+
+· " 6 "
+
+· " 3 "
+
+· " 2 ”
+
+CÂU(48) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, P là điểm trung tâm, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 10001001, với P1=1, hãy tính B(P1)= ? ”
+
+· *" 3 "
+
+· " 6 "
+
+· " 4”
+
+· " 2 ”
+
+CÂU(49) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, P là điểm trung tâm, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 01000001, với P1=1, hãy tính B(P1)= ? ”
+
+· " 3 "
+
+· " 6 "
+
+· " 4”
+
+· *" 2 ”
+
+CÂU(50-1) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, P là điểm trung tâm, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 11111001, với P1=1, hãy tính B(P1)= ? ”
+
+· " 2 ”
+
+· " 4”
+
+· " 3 "
+
+· *" 6 "
+
+CÂU(50-2) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, P là điểm trung tâm, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 11001101, với P1=1, hãy tính B(P1)= ? ”
+
+· " 2 ”
+
+· *" 5”
+
+· " 3 "
+
+· " 6 "
+
+CÂU(50-3) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, P là điểm trung tâm, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 00010000, với P1=1, hãy tính B(P1)= ? ”
+
+· " 4”
+
+· " 3 "
+
+· " 6 "
+
+· *" 1 ”
+
+CÂU(50) = " Người ta dùng mấy bít để biểu diễn mức xám ? ”
+
+· " 4 byte "
+
+· " 2 byte "
+
+· " 3 byte, 24 bít."
+
+· *" 1 byte, 8 bít , ”
+
+CÂU(51) = " Mã xích là gì ? ”
+
+· *" Là phương pháp mã hóa đường biên ảnh với 8 hướng vector nối 2 điểm biên liên tục"
+
+· " Mã hóa ảnh theo chiều dài mạch, hàng và cột "
+
+· " Là phương pháp mã hóa theo nội dung ảnh với các hướng ”
+
+· " Tất cả các cách "
+
+CÂU(52) = " Nêu sự khác nhau giữa ảnh màu và ảnh đen trắng ? ”
+
+· *" ảnh đen trắng dùng 1 byte để biểu diễn mức xám, ảnh màu dùng 3 byte và là tổ hợp của 3 màu cơ bản”
+
+· " Mức xám khác nhau ”
+
+· " ảnh màu có nhiều màu hơn "
+
+· " ảnh đen trắng chỉ có 2 màu đen và trắng "
+
+CÂU(54) = " Trong mô hình các bước rút trích đặc trưng vân tay. Tìm các bước sai trong chuỗi tiến trình sau: (1) Phân tích ảnh ->(2) Nâng cao chất lượng ảnh -> (3)Nhị phân hóa -> (4)Làm mảnh ảnh -> (5)Tái tạo cấấu trúc đường vân -> (6)Rút trích đặc trưng vân tay”
+
+· " Bước 4 và 5”
+
+· " Bước 2 và 3 "
+
+· " Bước 3 và 4 "
+
+· *" Bước 1 và 2
+
+rút trích đặc trưng vân tay. Tìm các bước sai trong chuỗi tiến trình sau: (1)Nâng cao chất lượng ảnh ->(2)Phân tích ảnh -> (3)Làm mảnh ảnh -> (4) Nhị phân hóa -> (5)Tái tạo cấu trúc đường vân -> (6)Rút trích đặc trưng vân tay”
+
+· " Bước 1 và 2 ”
+
+· *" Bước 4 và 5”
+
+· " Bước 2 và 3 "
+
+· " Bước 3 và 4 "
+
+CÂU(56) = " Trong mô hình các bước rút trích đặc trưng vân tay. Tìm các bước sai trong chuỗi tiến trình sau: (1)Phân tích ảnh -> (2)Nâng cao chất lượng ảnh -> (3) Nhị phân hóa -> (4)Làm mảnh ảnh -> (5)Tái tạo cấu trúc đường vân -> (6)Rút trích đặc trưng vân tay”
+
+· " Bước 3 và 4 "
+
+· " Bước 4 và 5”
+
+· " Bước 1 và 2 ”
+
+· *" Bước 2 và 3 "
+
+CÂU(57) = " Trong giải thuật Crossing Number, khi đi từ P1 đến P8 ta thu được chuỗi ảnh như sau 11000100, với P1=1, hãy tính Cnp= ? ”
+
+· " 3 "
+
+· " 0 ”
+
+· " 1 "
+
+· *" 2 ”
+
+CÂU(58) = " Trong giải thuật Crossing Number, khi đi từ P1 đến P8 ta thu được chuỗi ảnh như sau 00010001, với P1=1, hãy tính Cnp= ? ”
+
+· " 0 ”
+
+· *" 2 ”
+
+· " 1 "
+
+· " 3 "
+
+Phần 2
+
+CÂU(59) = " Trong giải thuật Crossing Number, khi đi từ P1 đến P8 ta thu được chuỗi ảnh như sau 01001001, với P1=1, hãy tính Cnp= ? ”
+
+· " 1 "
+
+· " 2 ”
+
+· " 0 ”
+
+· *" 3 "
+
+CÂU(60) = " Trong giải thuật Crossing Number, khi đi từ P1 đến P8 ta thu được chuỗi ảnh như sau 01000000, với P1=1, hãy tính Cnp= ? ”
+
+· " 2 ”
+
+· " 3 "
+
+· *" 1 "
+
+· " 0 ”
+
+CÂU(61) = " Biometric là gì? ”
+
+· " Nhận dạng tròng mắt "
+
+· " Nhận dạng khuôn mặt "
+
+· *" Nhận dạng sinh trắc học ”
+
+· " Nhận dạng vân tay ”
+
+CÂU(62) = " Công nghệ nhận dạng sinh trắc đa nhân tố là gì? ”
+
+· " Nhận dạng tròng mắt "
+
+· *" Sự kết hợp giữa các đặc điểm sinh trắc học như mắt, khuôn mặt, vân tay ”
+
+· " Nhận dạng khuôn mặt "
+
+· " Nhận dạng sinh trắc học ”
+
+CÂU(63) = " Tính phổ biến trong nhận sạng sinh trắc học là gì? ”
+
+· *" Tất cả ”
+
+· " Mọi người hay dùng "
+
+· " Mọi người đều có ”
+
+· " Duy nhất "
+
+CÂU(64) = " Tính riêng biệt trong nhận sạng sinh trắc học là gì? ”
+
+· *" Khác nhau nếu hai người khác nhau ”
+
+· " Duy nhất "
+
+· " Tất cả ”
+
+· " Mọi người hay dùng "
+
+CÂU(65) = " Khả năng chấp nhận trong nhận sạng sinh trắc học là gì? ”
+
+· *" Tính vô hại với con người ”
+
+· " Mọi người hay dùng "
+
+· " Tất cả ”
+
+· " Duy nhất "
+
+CÂU(66) = " Tính bảo mật an toàn trong nhận sạng sinh trắc học là gì? ”
+
+· " Duy nhất "
+
+· *" Độ bền vững trước các phương pháp tấn công, gian lận ”
+
+· " Tất cả ”
+
+· " Mọi người hay dùng "
+
+CÂU(67) = " DNA, Tóc, nước bọt, hình dáng. Đâu là nhận dạng sinh trắc học? ”
+
+· *" Tất cả ”
+
+· " DNA ”
+
+· " Tóc "
+
+· " Nước bọt "
+
+CÂU(68) = " Vân tay, võng mạc, chữ ký, giọng nói. Đâu là nhận sạng sinh trắc học?
+
+· " Vân tay ”
+
+· " Chữ ký "
+
+· ”
+
+· " Võng mạc "
+
+· *" Tất cả ”
+
+CÂU(69) = " Nhận dạng sinh trắc học để đăng nhập mạng máy tính ATM, thẻ tín dụng nằm trong lĩnh vực nào ? ”
+
+· " Chính phủ "
+
+· *" Thương mại ”
+
+· " Pháp y ”
+
+· " Công nghệ "
+
+CÂU(71) = " Nhận dạng sinh trắc học để nhận dạng khủng bố nằm trong lĩnh vực nào ?”
+
+· " Công nghệ "
+
+· " Thương mại ”
+
+· " Pháp y ”
+
+· *" Chính phủ "
+
+CÂU(72) = " Nhận dạng sinh trắc học để nhận dạng thi thể nằm trong lĩnh vực nào? ”
+
+· *" Pháp y ”
+
+· " Thương mại ”
+
+· " Chính phủ "
+
+· " Công nghệ "
+
+CÂU(73) = " Rút trích đặc trưng bao gồm mấy bước? ”
+
+· *" 3 bước, tiền xử lý, rút trích đặc trưng, hậu xử lý ”
+
+· " 4 bước, tiền xử lý, rút trích đặc trưng, hậu xử lý, đối sánh ”
+
+· " 2 bước, tiền xử lý, rút trích "
+
+· " 1 bước: rút trích"
+
+CÂU(74) = " Giai đoạn tiền xử lý ảnh vân tay? ”
+
+· " 1 bước: rút trích"
+
+· " 4 bước, tiền xử lý, rút trích đặc trưng, hậu xử lý, đối sánh ”
+
+· *" 3 bước: lọc, nhị phân cục bộ, làm mảnh”
+
+· " 2 bước, tiền xử lý, rút trích "
+
+CÂU(75) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 11001111, với P1=1, hãy tính B(P1) ? ”
+
+· *" 6 "
+
+· " 2 ”
+
+· " 4”
+
+· " 3 "
+
+CÂU(76) = " Công thức Maxwell ? ”
+
+· *" Đỏ+Lục+Lơ=1 ”
+
+· " R * G * B=256 * 256 * 256 "
+
+· " Đỏ*Luc*Lơ=1”
+
+· " R+G+B=1024 "
+
+CÂU(77) = " Định nghĩa ảnh số ? ”
+
+· " Là ảnh được số hóa "
+
+· " Là tập hợp điểm ảnh với các giá trị 0,1 "
+
+· *" Tập hợp các điểm ảnh với mức xám phù hợp dùng để mô tả ảnh gần với ảnh thật ”
+
+· " Là tập hợp điểm ảnh có giá trị số bất kỳ”
+
+CÂU(78) =" Lân cận điểm ảnh N4P là? ”
+
+· " Là tập hợp điểm ảnh có giá trị số bất kỳ”
+
+· " Là các điểm ảnh trên 4 đường chéo với điểm ảnh ở trung tâm ”
+
+· " Là các điểm ảnh xung quanh "
+
+· *" Là 4 điểm ảnh lân cận gần nhất theo hướng Đông, Tây, Nam, Bắc "
+
+CÂU(79) =" Lân cận điểm ảnh NPP là? ”
+
+· " Là tập hợp điểm ảnh có giá trị số bất kỳ”
+
+· " Là các điểm ảnh xung quanh "
+
+· " Là các điểm ảnh gần nhất theo hướng 2 đường chéo với điểm ảnh ở trung tâm ”
+
+· *" Là 4 điểm ảnh lân cận gần nhất theo hướng Đông, Tây, Nam, Bắc "
+
+CÂU(80) =" Lân cận điểm ảnh N8P là? ”
+
+· " Là các điểm ảnh xung quanh "
+
+· *" Là các điểm ảnh xung quanh gần nhất theo 8 hướng xung quanh ”
+
+· " Là 4 điểm ảnh lân cận gần nhất theo hướng Đông, Tây, Nam, Bắc "
+
+· " Là tập hợp điểm ảnh có giá trị số bất kỳ”
+
+CÂU(81) =" Header của file ảnh ghi những thông tin gì? ”
+
+· *" Chứa thông tin về ảnh: kích cỡ, kiểu ảnh, độ phân giải, số bít dùng cho 1 pixel, bảng màu, cách mã hóa.... ”
+
+· " Chứa kích cỡ ảnh ”
+
+· " Chứa mã xích "
+
+· " Chứa dữ liệu nén "
+
+8CÂU(82) =" Dữ liệu nén của file ảnh ghi những thông tin gì? ”
+
+· " Chứa mã xích "
+
+· " Chứa header file "
+
+· *" Số liệu ảnh được mã hóa bởi kiểu mã hóa được chỉ ra trong Header ”
+
+· " Chứa kích cỡ ảnh ”
+
+CÂU(83) =" Bảng màu của file ảnh ghi những thông tin gì?”
+
+· *" Số màu dùng trong ảnh và bảng màu được dùng để hiển thị ảnh”
+
+· " Số liệu ảnh được mã hóa bởi kiểu mã hóa được chỉ ra trong Header ”
+
+· " Chứa mã xích "
+
+· " Chứa header file "
+
+CÂU(84) =" Quy trình đọc tệp ảnh ?”
+
+· " Số màu dùng trong ảnh và bảng màu được dùng để hiển thị ảnh”
+
+· *" Đọc header, thông tin chung và thông tin điều khiển, đọc bảng màu vào bộ nhớ, đọc dữ liệu nén, giải mã và hiển thị ảnh”
+
+· " Đọc header và dừng "
+
+· " Đọc dữ liệu nén, giải nén, hiển thị ảnh "
+
+CÂU(85) =" Trong giải thuật Zhang-Suen, khi thỏa mãn 4 điều kiện, người ta thực hiện thao tác gì với điểm ảnh ấy ”
+
+· " Không làm gì ”
+
+· " Biến điểm ảnh ấy từ 0 thành 1, hoặc từ 1 thành 0"
+
+· " Xóa điểm ảnh ấy ngay”
+
+· *" Đánh dấu xóa "
+
+CÂU(86) = " Trong giải thuật Zhang-Suen, Nếu A[i,j] là ô trung tâm, thì P4 là ? "
+
+· *" A[i,j+1] "
+
+· " A[i-1,j] "
+
+· " A[i+1,j-1] "
+
+· " A[i,j-1] "
+
+CÂU(87) = " Trong giải thuật Zhang-Suen, Nếu A[i,j] là ô trung tâm, thì P5 là ? "
+
+· *" A[i+1,j+1] "
+
+· " A[i-1,j] "
+
+· " A[i,j+1] "
+
+· " A[i,j-1] "
+
+CÂU(88) = " Trong giải thuật Zhang-Suen, Nếu A[i,j] là ô trung tâm, thì P6 là ? "
+
+· " A[i,j+1] "
+
+· " A[i,j-1] "
+
+· " A[i+1,j+1] "
+
+· *" A[i+1,j] "
+
+CÂU(91) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, thì P3 là ? "
+
+· " (i+1,j+1)"
+
+· " (i+1,j-1)"
+
+· " (i-1.j+1)"
+
+· *" (i,j+1)"
+
+CÂU(92) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, thì P5 là ? "
+
+· *" (i+1,j)"
+
+· " (i-1,j+1)"
+
+· " (i,j+1)"
+
+· " (i+1,j-1)"
+
+CÂU(93) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, thì P7 là ? "
+
+· " (i-1,j+1)"
+
+· *" (i,j-1)"
+
+· " (i+1,j)"
+
+· " (i+1,j-1)"
+
+CÂU(94) = " Trong giải thuật Crossing Number, nếu ô (i,j) là ô trung tâm, thì P9 là ? "
+
+· " (i+1,j)"
+
+· " (i+1,j-1)"
+
+· *" (i-1,j-1)"
+
+· " (i,j+1)"
+
+CÂU(95) = " Trong giải thuật Crossing Number, Đi từ P1 đến P8 lần lượt là 00010001, hãy cho biết điểm vân tay trung tâm P0 thuộc loại đặc trưng gì ? "
+
+· " Ridge ending"
+
+· " Điểm chia đôi"
+
+· *" Trên đường vân "
+
+· " Tất cả"
+
+CÂU(96) = " Trong giải thuật Crossing Number, Đi từ P1 đến P8 lần lượt là 00010001, hãy cho biết điểm vân tay trung tâm P0 thuộc loại đặc trưng gì ? "
+
+· " Ridge ending"
+
+· *" Trên đường vân "
+
+· " Tất cả"
+
+· " Điểm chia đôi"
+
+CÂU(97) = " Trong giải thuật Crossing Number, Đi từ P1 đến P8 lần lượt là 11000100, hãy cho biết điểm vân tay trung tâm P0 thuộc loại đặc trưng gì ? "
+
+· *" Trên đường vân "
+
+· " Tất cả"
+
+· " Ridge ending"
+
+· " Điểm chia đôi"
+
+CÂU(98) = " Trong giải thuật Crossing Number, Đi từ P1 đến P8 lần lượt là 01001001, hãy cho biết điểm vân tay trung tâm P0 thuộc loại đặc trưng gì ? "
+
+· *" Điểm chia đôi"
+
+· " Tất cả"
+
+· " Ridge ending"
+
+· " Trên đường vân "
+
+CÂU(99) = " Trong giải thuật Crossing Number, Đi từ P1 đến P8 lần lượt là 01000000, hãy cho biết điểm vân tay trung tâm P0 thuộc loại đặc trưng gì ? "
+
+· " Điểm chia đôi"
+
+· " Trên đường vân "
+
+· " Tất cả"
+
+· *" Ridge ending"
+
+CÂU(103) = " Vì sao khi đối sánh vân tay người ta cần phải thực hiện phép quay "
+
+· " Vì vân tay cần phải quay cùng về một hướng"
+
+· " Tất cả "
+
+· *" Vì vân tay lúc lấy và vân tay lúc quét có lệch hướng nhau "
+
+· " Để đo độ sai số cho dễ "
+
+CÂU(104) = " Vì sao khi đối sánh vân tay người ta cần phải thực hiện phép tịnh tiến "
+
+· " Tất cả "
+
+· " Để tính góc "
+
+· " Vì vân tay cần phải quay cùng về một hướng"
+
+· *" Vì sau khi quay người ta cần tịnh tiến để đo độ sai số "
+
+CÂU(105) = " Ngưỡng đặt trước trong đối sánh vân tay là gì "
+
+· " Là sai số chấp nhận được và không ảnh hưởng đến tính chính xác của đối sánh vân
+
+· " Phải đạt đến ngưỡng đó mới chính xác "
+
+· " Góc giữa hai vân tay đối sánh "
+
+· *" Tất cả "
+
+CÂU(106) = " Làm mảnh ảnh là gì? "
+
+· " Các đường lằn đều giảm đi 1 đơn vị điểm ảnh "
+
+· *" Loại bỏ các pixel thừa của đường lằn cho đến khi bề rộng của nó chỉ còn 1 pixel, mà vẫn giữ được cấu trúc hình học "
+
+· " Tất cả "
+
+· " Co ảnh vân tay lại "
+
+CÂU(107) = " Quy trình đọc 1 tệp ảnh? "
+
+· " Đọc dữ liệu nén "
+
+· " Đọc header, dữ liệu, giải nén, giải mã "
+
+· " Đọc bảng màu "
+
+· *" Đọc header, bảng màu và dữ liệu nén "
+
+CÂU(108) = " Mã tứ phân? "
+
+· " Chia vùng ảnh thành 4 phần và mã hóa từng phần"
+
+· *" Chia vùng ảnh thành 4 phần một cách đệ quy, tạo ra 1 cây chia làm 4 phần gọi là cây tứ phân "
+
+· " Chia vùng ảnh thành 4 phần và đệ quy "
+
+· " Là mã xích mở rộng "
+
+CÂU(109) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 01111111, hãy tính AP= ? ”
+
+· " 0 "
+
+· " 3 "
+
+· " 2 "
+
+· *" 1 "
+
+CÂU(110) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 01110111, hãy tính AP= ? ”
+
+· " 1 "
+
+· " 3 "
+
+· " 0 "
+
+· *" 2 "
+
+CÂU(112) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 11110111, hãy tính BP= ? ”
+
+· " 0 "
+
+· *" 1 "
+
+· " 3 "
+
+· " 7 "
+
+CÂU(113) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 01110111, hãy tính BP= ? ”
+
+· " 3 "
+
+· " 0 "
+
+· *" 6 "
+
+· " 1 "
+
+CÂU(114) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 01110111, Điểm ảnh này có bị đánh dấu xóa ? ”
+
+· " Không vì BP=9 "
+
+· *" Không vì AP=2 "
+
+· " Không vì AP=1 "
+
+· " Có vì thỏa mãn 4 điều kiện "
+
+CÂU(115) = " Trong giải thuật làm mảnh ảnh Zhang-Suen, khi đi từ P2 đến P9 ta thu được chuỗi ảnh như sau 11110111, Điểm ảnh này có bị đánh dấu xóa ? ”
+
+· " Có vì thỏa mãn 4 điều kiện "
+
+· " Không vì AP=2 "
+
+· *" Không vì BP=7 "
+
+· " Không vì AP=1 "
+
+CÂU(116) = " Công nghệ sinh nhắc đa nhân tố là gì ? ”
+
+· " Là công nghệ dựa trên tính cách "
+
+· " Tất cả "
+
+· " Là công nghệ dựa trên khuôn mặt "
+
+· *" Là sự kết hợp của các kiểu dữ liệu sinh trắc học "
+
+CÂU(117) = " Khi nhận dạng sinh trắc học, mẫu input chọn được 10 template giống đặc điểm của input nhất, bước tiếp theo phải chọn mẫu dựa trên đặc điểm nào ? ”
+
+· " Chọn kết hợp "
+
+· " Chọn mẫu có sai số ít nhất "
+
+· *" Chọn mẫu có sai số ít nhất và nhỏ hơn ngưỡng cho trước "
+
+· " Chọn ngẫu nhiên "
+
+CÂU(118) = " Nhận dạng chữ ký có phải là nhận dạng sinh trắc học không ? ”
+
+· *" Có vì nó là thuộc tính vật lý và đặc điểm sinh học duy nhất của mỗi cá nhân "
+
+· " Không "
+
+· " Có vì nó là chữ ký được pháp luật công nhận "
+
+· " Không vì nó có thể giống nhau "
+
+CÂU(119) = " Nhận dạng khuôn mặt có phải là nhận dạng sinh trắc học không ? ”
+
+· *" Có vì nó là thuộc tính vật lý và đặc điểm sinh học duy nhất của mỗi cá nhân "
+
+· " Có vì nó dễ đo đạc "
+
+· " Không vì nó có thể giống nhau "
+
+· " Không "
+
+CÂU(120) = " Nhận dạng mắt có phải là nhận dạng sinh trắc học không ? ”
+
+· *" Có vì nó là thuộc tính vật lý và đặc điểm sinh học duy nhất của mỗi cá nhân "
+
+· " Có vì nó dễdễ
+
+· " Không vì nó có thể giống nhau "
+
+CÂU(121) = " Nhận dạng DNA có phải là nhận dạng sinh trắc học không ? ”
+
+· " Không vì nó có thể giống nhau "
+
+· " Có vì nó dễ đo đạc "
+
+· *" Có vì nó là thuộc tính vật lý và đặc điểm sinh học duy nhất của mỗi cá nhân "
+
+· " Không "
+
+CÂU(122) = " Nhận dạng tai có phải là nhận dạng sinh trắc học không ? ”
+
+· " Không "
+
+· " Có vì tai dễ đo đạc "
+
+· " Không vì nó có thể giống nhau "
+
+· *" Có vì nó là thuộc tính vật lý và đặc điểm sinh học duy nhất của mỗi cá nhân "
+
+CÂU(123) = " Nhận dạng thân nhiệt mặt có phải là nhận dạng sinh trắc học không ? ”
+
+· " Không "
+
+· " Không vì nó có thể giống nhau "
+
+· *" Có vì nó là thuộc tính vật lý và đặc điểm sinh học duy nhất của mỗi cá nhân "
+
+· " Có vì thân nhiệt mặt có thể đo đạc định lượng "
+
+CÂU(124) = " Nhận dạng thân nhiệt tay có phải là nhận dạng sinh trắc học không ? ”
+
+· " Không vì nó có thể giống nhau "
+
+· " Có vì thân nhiệt tay có thể đo đạc định lượng "
+
+· *" Có vì nó là thuộc tính vật lý và đặc điểm sinh học duy nhất của mỗi cá nhân "
+
+· " Không "
+
+CÂU(125) = " Nhận dạng tĩnh mạch tay có phải là nhận dạng sinh trắc học không ? ”
+
+· *" Có vì nó là thuộc tính vật lý và đặc điểm sinh học duy nhất của mỗi cá nhân "
+
+· " Không vì nó có thể giống nhau "
+
+· " Có vì tĩnh mạch tay có thể đo đạc định lượng "
+
+· " Không "
+    </p>
+</body>
+</html>
