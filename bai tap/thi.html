@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Lập trình quản trị cơ sở dữ liệu nâng cao 27_3
+
+Phần 1
+
+Câu 1: Hãy chọn phương án đúng ứng với từ mô tả đối tượng kết nối?
+
+· SqlNetwork
+
+· SqlCommand
+
+· * SqlConnection
+
+· SqlDataAdapter
+
+Câu 2: Hãy chọn phương án đúng chỉ ra mục đích của lập trình kết nối cơ sở dữ liệu?
+
+· Thao tác với dữ liệu thực của hệ thống.(1)
+
+· Đa dạng hóa chức năng của hệ thống, tạo sự dễ dàng cho người lập trình.
+
+· * Cả phương (1) và (2) đều đúng.
+
+· Gắn kết giao diện sử dụng trực quan với dữ liệu cần xử lý.(2)
+
+Câu 3: Đối tượng cho phép quản lý các bảng là đối tượng nào trong các đối tượng sau đây?
+
+· . DataReader.
+
+· . SqlDataReader.
+
+· *. DataSet.
+
+· . DataView.
+
+Câu 4: Hãy chọn phương án đúng ứng với quy trình truy xuất dữ liệu từ cơ sở dữ liệu?
+
+· DataSource->Connection-> DataSet -> DataAdapter ->Web Form/Windows Form
+
+· DataSource-> DataAdapter -> Connection ->DataSet->Web Form/Windows Form
+
+· DataSource-> DataSet ->DataAdapter-> Connection ->Web Form/Windows Form
+
+· * DataSource->Connection->DataAdapter->DataSet->Web Form/Windows Form.
+
+Câu 5: Hãy chọn phương án đúng ứng với mục đích sử dụng của đối tượng SqlConnection?
+
+· Thực hiện mở một bảng dữ liệu để truy xuất.
+
+· Thực thi một truy vấn dạng SQL.
+
+· Thực thi một truy vấn cơ sở dữ liệu dạng Select.
+
+· * Thực hiện tạo kết nối đến cơ sở dữ liệu.
+
+Câu 6: Hãy chọn phương án đúng ứng với tác dụng của thuộc tính ConnectionString của đối tượng SqlConnection?
+
+· Chứa tên server cần kết nối.
+
+· * Tất cả các phương án.
+
+· Chứa tên cơ sở dữ liệu cần kết nối.
+
+· Chứa chuỗi kết nối (đường dẫn)
+
+Câu 7: Hãy chọn phương án đúng ứng với câu lệnh khai báo một đối tượng kết nối trong VB.NET?
+
+· Public oconn as SqlCommand.
+
+· Public oconn as SqlNetWork.
+
+· * Public oconn as SqlConnection.
+
+· Public oconn as SqlDataReader.
+
+Câu 8: Visual Basic.Net có thể kết nối được những loại cơ sở dữ liệu nào trong các phương án sau đây?
+
+· Foxpro, MySQL, SQL Server.
+
+· SQL Server, Oracel.
+
+· * Access, SQL Server và Oracel.
+
+· Access, Foxpro, MySQL và SQL Server.
+
+Câu 9: Để sử dụng các đối tượng truy cập cơ sở dữ liệu SQL Server ta phải khai báo sử dụng thư viện. Câu lệnh khai báo nào sau đây là đúng?
+
+· * Imports System.Data.SqlClient.
+
+· Imports System.SqlClient.
+
+· Imports System.Data.Oledb.
+
+· Imports System.Oledb.
+
+Câu 10: Hãy chọn câu khẳng định đúng?
+
+· Để kết nối được đến cơ sở dữ liệu bất kỳ bạn cần phải mở cơ sở dữ liệu đó đầu tiên.
+
+· * Quy trình kết nối cơ sở dữ liệu trong C#, ASP.NET, PHP…là giống nhau.
+
+· Quy trình truy cập cơ sở dữ liệu trong ngôn ngữ lập trình Web và lập trình Desktop là khác nhau.
+
+· Mọi đối tượng kết nối đến cơ sở dữ liệu là như nhau đối với mọi hệ quản trị cơ sở dữ liệu.
+
+Câu 11: Hãy chọn phương án chỉ ra tác dụng của phương thức GetChanges của đối tượng DataSet?
+
+· Không chấp nhận sự thay đổi dữ liệu.
+
+· * Lọc ra các dữ liệu thay đổi.
+
+· Chấp nhận sự thay đổi dữ liệu.
+
+· Ghi và đọc dữ liệu trong tập tin XML.
+
+Câu 12: Hãy chọn phương án đúng ứng với khái niệm về đối tượng DataTable?
+
+· Là đối tượng cho phép trình bày dữ liệu trong đối tượng DataSet với các tính năng như sắp xếp, lọc, tìm kiếm, sửa đổi và điều hướng.
+
+· Là đối tượng lưu trữ dữ liệu lấy từ trình điều khiển dữ liệu; chứa các đối tượng DataSet, DataView; nhận dữ liệu thông qua phương thức Fill của đối tượng DataAdapter.
+
+· Là thành phần chính của đối tượng DataAdapter sử dụng để chứa dữ liệu của bộ điều phối.
+
+· * Là thành phần chính trong DataSet; các DataTable có thể có quan hệ với nhau; DataTable cũng chứa dữ liệu từ bộ điều phối dữ liệu.
+
+Câu 13: Hãy chọn câu khái niệm tương ứng với khái niệm về đối tượng DataView?
+
+· * Là đối tượng cho phép trình bày dữ liệu trong đối tượng DataSet với các tính năng như sắp xếp, lọc, tìm kiếm, sửa đổi và điều hướng..
+
+· Là đối tượng lưu trữ dữ liệu lấy từ trình điều khiển dữ liệu; chứa các đối tượng DataSet, DataView; nhận dữ liệu thông qua phương thức Fill của đối tượng DataAdapter.
+
+· Là thành phần chính của đối tượng DataAdapter sử dụng để chứa dữ liệu của bộ điều phối.
+
+· Là thành phần chính trong DataSet; các DataView có thể có quan hệ với nhau; DataView cũng chứa dữ liệu từ bộ điều phối dữ liệu.
+
+Câu 14: Hãy chọn phương án đúng ứng với ý nghĩa của thuộc tính HasError của đối tượng DataSet và DataTable?
+
+· Trả về sự trùng khớp hay không trùng khớp giữa các đối tượng DataTable trong DataSet.
+
+· * Trả lại trạng thái lỗi của cac thành phần trong DataTable, DataSet dạng true/false.
+
+· Trả lại tập quan hệ cha/con giữa hai bảng DataTable trong DataSet.
+
+· Trả về kết của việc lấy dữ liệu về trên DataSet, DataTable dạng true/false.
+
+Câu 15: Đối tượng DataTable có thuộc tính Columns để trả về tập các đối tượng DataColumn trong DataTables. Để biết được số lượng cột của bảng ta sử dụng câu lệnh nào trong các câu lệnh sau?
+
+· Tên_DataTable.countcolumns.
+
+· Tên_DataTable.columns().count.
+
+· Tên_DataTable.count.columns.
+
+· * Tên_DataTable.columns.count.
+
+Câu 16: Đối tượng DataTable có thuộc tính Rows để trả về tập các đối tượng DataRow trong DataTables. Để biết được số lượng dòng của bảng ta sử dụng câu lệnh nào trong các câu lệnh sau?
+
+· Tên_DataTable.Rows().count.
+
+· Tên_DataTable.countrows.
+
+· * Tên_DataTable.Rows.count.
+
+· Tên_DataTable.count.Rows.
+
+Câu 17: Đối tượng DataTable có thuộc tính Rows để trả về tập các đối tượng DataRow trong DataTables và thuộc tính Columns để trả về tập các đối tượng DataColumn trong DataTables. Để truy cập vào dữ liệu tại các ô bảng ta sử dụng câu lệnh nào trong các câu lệnh sau?
+
+· Tên_DataTable. Columns(chỉ số dòng)(chỉ số cột).
+
+· * Tên_DataTable.Rows(chỉ số dòng)(chỉ số cột).
+
+· Tên_DataTable.Columns(chỉ số cột)(chỉ số dòng).
+
+· Tên_DataTable. Rows(chỉ số cột)(chỉ số dòng).
+
+Câu 18: Hãy chọn phương án đúng chỉ ra tác dụng của phương thức RejectChange của đối tượng DataSet?
+
+· Chấp nhận sự thay đổi dữ liệu trên DataSet.
+
+· * Không chấp nhận sự thay đổi dữ liệu trên DataSet.
+
+· Lọc ra các dữ liệu thay đổi trên DataSet.
+
+· Đối chiếu các dữ liệu trên DataSet với nhau.
+
+Câu 19: Hãy chọn phương án đúng chỉ ra tác dụng của phương thức GetChanges của đối tượng DataSet?
+
+· * Lọc ra các dữ liệu thay đổi trên DataSet.
+
+· Chấp nhận sự thay đổi dữ liệu trên DataSet.
+
+· Không chấp nhận sự thay đổi dữ liệu trên DataSet.
+
+· Đối chiếu các dữ liệu trên DataSet với nhau.
+
+Câu 20: Hãy chọn đối tượng cần sử dụng khi muốn thực thi một câu truy vấn dạng Select?
+
+· SqlDataReader.
+
+· * Cả phương án (1) và (2) đều đúng.
+
+· SqlCommand.(2)
+
+· SqlDataAdapter.(1)
+
+Câu 21: Khi cần truyền tham số cho đối tượng SqlCommand ta sử dụng đối tượng nào trong các đối tượng sau?
+
+· * SqlParameter.
+
+· SqlAvarialbe.
+
+· SqlConnection.
+
+· SqlDataAdapter.
+
+Câu 22: Khi lập trình kết nối cơ sở dữ liệu ta phải khai báo các Namespace tương ứng với loại đối tượng cần sử dụng. Để dử dụng đối tượng DataTable hay DataSet ta phải khai báo Namespace nào?
+
+· System.Data.DataSet.
+
+· * System.Data.
+
+· System.Data.Oledb.
+
+· System.Data.SqlClient.
+
+Câu 23: Kiến trúc mô hình lập trình MVC bao gồm những thành phần nào trong các thành phần sau đây?
+
+· Model, Connection, View.
+
+· Map, Controller, View.
+
+· * Model, Controller, View.
+
+· Map, Connection, View.
+
+Câu 24: Thành phần Model trong mô hình MVC làm nhiệm vụ gì trong các trách nhiệm vụ đây?
+
+· * Xử lý các thao tác trên Database, gửi kết quả trả về thông qua View.
+
+· Thực thi các câu lệnh không cần truy cập cơ sở dữ liệu.
+
+· Điều hướng các Request tới những tác vụ tương ứng.
+
+· Hiển thị thông tin lên website, sau khi đi qua Controller và nhận kết quả.
+
+Câu 25: Hãy chọn phươg án ứng với các tham số cần thiết khi kết nối đến SQL Server từ ngôn ngữ lập trình?
+
+· Chỉ cần giá trả timeout của kết nối; cơ chế xác thực dùng khi kết nối đến các cơ sở dữ liệu được bảo mật, bao gồm việc cung cấp username và password.
+
+· * Tên server cơ sở dữ liệu đích; tên cơ sở dữ liệu cần mở vào lúc đầu; giá trị timeout của kết nối; cơ chế xác thực dùng khi kết nối đến các cơ sở dữ liệu được bảo mật, bao gồm việc cung cấp username và password.
+
+· Tên server cơ sở dữ liệu đích; tên cơ sở dữ liệu cần mở vào lúc đầu; cơ chế xác thực dùng khi kết nối đến các cơ sở dữ liệu được bảo mật, bao gồm việc cung cấp username và password.
+
+· Tên server cơ sở dữ liệu đích; tên cơ sở dữ liệu cần mở vào lúc đầu.
+
+Câu 26: Hãy chọn phương án đúng ứng với tính chất của thao tác ràng buộc dữ liệu DataBinding?
+
+· Dữ liệu tự ràng buộc với các điều khiển thông qua một phưng thức không cần kết nối đến cơ sở dữ liệu.
+
+· Dữ liệu hiển thị lên các điều khiển một cách tự động mà không cần kết nối cơ sở dữ liệu.
+
+· Dữ liệu hiển thị lên các điều khiển sẽ không phụ thuộc vào nguồn dữ liệu có trong DataSet hay DataAdapter.
+
+· * Dữ liệu hiển thị lên các điều khiển sẽ phụ thuộc vào nguồn dữ liệu có trong DataSet hay DataAdapter.
+
+Câu 27: Hãy chọn phương án đúng ứng với tác dụng của đoạn chương trình?
+
+· Tạo cột pub_id cho bảng Publishers và cột pub_id cho bảng Titles của DataSet datPubs.
+
+· * Tạo kết nối giữa hai bảng Publishers, Titles của đối tượng DataSet datPubs.
+
+· Thêm vào DataSet hai bảng Publishers và Titles.
+
+· Tạo hai bảng Publishers, Title cho đối tượng DataSet là datPubs.
+
+Câu 28: Hãy chọn phương án đúng ứng với quy trình đầy đủ để thêm một thông tin vào trong bảng dữ liệu trong cơ sở dữ liệu?
+
+· Tiến hành thêm vào cơ sở dữ liệu; Thông báo kết quả thêm thông tin.
+
+· Kiểm tra sự tồn tại của thông tin cần thêm trong bảng dữ liệu; Kiểm tra tính hợp lệ của dữ liệu cần thêm; Tiến hành thêm vào cơ sở dữ liệu; Thông báo kết quả thêm thông tin.
+
+· * Kiểm tra tính hợp lệ của dữ liệu cần thêm; Kiểm tra sự tồn tại của thông tin cần thêm trong bảng dữ liệu; Tiến hành thêm vào cơ sở dữ liệu; Thông báo kết quả thêm thông tin.
+
+· Kiểm tra tính hợp lệ của dữ liệu cần thêm; Tiến hành thêm vào cơ sở dữ liệu; Kiểm tra sự tồn tại của thông tin cần thêm trong bảng dữ liệu; Thông báo kết quả thêm thông tin
+
+Câu 29: Hãy chọn phương án đúng ứng với quy trình đầy đủ để xóa một thông tin vào trong bảng dữ liệu trong cơ sở dữ liệu?
+
+· Kiểm tra sự ràng buộc toàn vẹn của cơ sở dữ liệu; Kiểm tra sự tồn tại của thông tin xóa trong bảng dữ liệu; Tiến hành xóa thông tin khỏi bảng cơ sở dữ liệu; Thông báo kết quả xóa thông tin.
+
+· * Kiểm tra sự tồn tại của thông tin xóa trong bảng dữ liệu; Kiểm tra sự ràng buộc toàn vẹn của cơ sở dữ liệu; Tiến hành xóa thông tin khỏi bảng cơ sở dữ liệu; Thông báo kết quả xóa thông tin.
+
+· Kiểm tra sự tồn tại của thông tin xóa trong bảng dữ liệu; Thông báo kết quả xóa thông tin.
+
+· Kiểm tra sự tồn tại của thông tin xóa trong bảng dữ liệu; Tiến hành xóa thông tin khỏi bảng cơ sở dữ liệu; Thông báo kết quả xóa thông tin.
+
+Câu 30: Hãy chọn phương án đúng ứng với các đối tượng tham gia vào quá trình lập trình kết nối cơ sở dữ liệu?
+
+· Connection, DataAdapter, DataSet(2)
+
+· * Cả phương án (1) và (2) đều đúng.
+
+· Connection, Command, DataSet(1)
+
+· Connection, DataSet, DataCommand
+
+Câu 31: Hãy cho biết thuộc tính CommandText của đối tượng SqlCommand chứa thông nào trong các phương án sau?
+
+· * Chuỗi truy vấn.
+
+· Đối tượng kết nối.
+
+· Thời gian chờ khi kết thúc thực thi.
+
+· Thông tin về loại truy vấn: Select, Insert, Delete, Update.
+
+Câu 32: Phương thức ExcuteNoneQuery() của đối tượng SqlCommand sẽ trả về nội dung nào trong các nội dung sau?
+
+· Trả về một câu lệnh truy vấn dạng Insert, Update, Delete.
+
+· * Trả về giá trị số nguyên tương ứng với số mẩu tin đã thực thi, được sử dụng cho các phát biểu SQL dạng cập nhập dữ liêu, xoa, thêm mới mẩu tin hay các phát biểu dạng hành động và thủ tục nội tại trong SQL Server.
+
+· Trả về trạng thái của đối tượng SqlCommand.
+
+· Trả về kiểu đối tượng tương ứng với giá trị của cột và hàng đầu tiên.
+
+Câu 33: Hãy chọn phương án đúng ứng với khái niệm về bộ điều phối SqlDataAdapter?
+
+· Là bộ điều phối dữ liệu phân chia dữ liệu từ cơ sở dữ liệu nguồn vào các bảng trong đối tượng DataSet.
+
+· Là bộ điều phối dữ liệu đọc trực tiếp dữ liệu từ cơ sở dữ liệu nguồn thông qua phương thức ExcuteNonQuery().
+
+· Là bộ điều phối dữ liệu cho phép thực thi các truy vấn dạng Insert, Update, Delete và trả về số bộ dữ liệu được thực thi thông qua phương thức ExcuteNonQuery().
+
+· * Là bộ điều phối dữ liệu cho phép sử dụng phương thưc Fill để điền dữ liệu từ một hay nhiều bảng vào đối tượng DataSet hay DataTable.
+
+Câu 34: Hãy chọn phương án đúng ứng với cụm từ viết tắt ADO?
+
+· Active Dentifition Object.
+
+· Access Data Object.
+
+· Access Dentifition Object.
+
+· * ActiveX Data Object.
+
+Câu 35: Hãy cho biết ADO.Net được sử dụng bởi các ngôn ngữ lập trình nào trong các phương án dưới đay?
+
+· Visual Basic.NET , Visual Basic, C++, ASP.(1)
+
+· * ASP.Net, VisualBasic.Net, C#.(2)
+
+· Cả (1) và (2)
+
+· Java, ASP, VisualBasic.
+
+Câu 36: Phương thức Dispose() của các đối tượng trong quy trình kết nối cơ sở dữ liệu làm nhiệm vụ gì trong các nhiệm vụ sau?
+
+· * Hủy bỏ đối tượng.
+
+· Đóng đối tượng.
+
+· Sắp xếp lại các đối tượng.
+
+· Ngắt tạm thời các đối tượng.
+
+Câu 37: Hãy chọn phương án không đúng với cách thực thi một đối tượng SqlCommand?
+
+· ExcuteScalar.
+
+· * ExcuteCommand.
+
+· ExcuteNonQuery.
+
+· ExcuteReader.
+
+Câu 38: Để thực thi một Procudure có sẵn trong cơ sở dữ liệu SQL Server ta cần thiết lập thuộc tính CommandType của đối tượng SqlCommand bằng giá trị nào trong các giá trị sau?
+
+· CommandType.Sql
+
+· CommandType.Text.
+
+· CommandType.Procedure.
+
+· * CommandType.StoredProcedure.
+
+Câu 39: Để thiết lập các tham biến cho thủ tục được thực thi bởi đối tượng SqlCommand ta sử dụng phương thức nào trong các phương thức sau?
+
+· * Phương thức Add().
+
+· Phương thức Parameter().
+
+· Phương thức Fill().
+
+· Phương thức Insert().
+
+Câu 40: Hãy cho biết các đối tượng kết nối trong đoạn chương trình trên có thể kết nối đến cơ sở dữ liệu nào trong các cơ sở dữ liệu sau?
+
+· SQL Server.
+
+· * Access.
+
+· Oracel.
+
+· Foxpro.
+
+Câu 41: Hãy chọn phương án đúng chỉ ra kết quả trả về của hàm Table_dl được xây dựng trong đoạn mã?
+
+· Trả về bảng dữ liệu trắng.
+
+· Trả về đối tượng kết nối đến bảng dữ liệu trong câu lệnh sql được truyền vào.
+
+· Trả về các dữ liệu là kết quả thực thi câu lệnh sql được truyền vào.
+
+· * Trả về bảng dữ liệu là kết quả thực thi câu lệnh sql được truyền vào.
+
+Câu 42: Cho đoạn chương trình. Hãy chọn khẳng định đúng trong các khẳng định sau?
+
+· * Câu lệnh da.Dispose() sẽ không bao giờ được thực thi.
+
+· Câu lệnh da.Fill(dt) là câu lệnh cập nhập dữ liệu từ dt vào đối tượng da.
+
+· Câu lệnh da=New OleDbDataAdapter(sql,oconn) là câu lệnh thực hiện quá trình kết nối đến cơ sở dữ liệu.
+
+· Câu lệnh Dim dt as New DataTable bị lỗi vì không khai báo phần tên bảng.
+
+Câu 43: Hãy chọn phương án đúng ứng với tác dụng của điều khiển AdomdConnection?
+
+· Cho phép thực hiện thu hồi kết nối đến cơ sở dữ liệu.
+
+· * Cho phép thực hiện kết nối đến cơ sở dữ liệu.
+
+· Cho phép thực hiện mở bảng dữ liệu từ cơ sở dữ liệu.
+
+· Cho phép ngắt toàn bộ các kết nối đến một cơ sở dữ liệu bất kỳ.
+
+Phần 2
+
+Câu 1: Tạo cấu trúc bảng trong SQL có 3 thành phần: Column Name, Data Type, Allow Null. Khi người dùng không tích chọn mục Allow Null, nghĩa là cột tương ứng trong bảng:
+
+· *Bắt buộc phải nhập dữ liệu
+
+· Ràng buộc dữ liệu theo điều kiện
+
+· Không ràng buộc dữ liệu theo điều kiện
+
+· Không bắt buộc phải nhập dữ liệu
+
+Câu 2: SQL là:
+
+· *a. Ngôn ngữ hỏi có cấu trúc
+
+· b. Ngôn ngữ để thiết lập các câu hỏi
+
+· c. Ngôn ngữ truy vấn
+
+· d. Ngôn ngữ trả lời các c
+
+trong SQL có 3 thành phần: Column Name, Data Type, Allow Nulls. Khi người dùng tích chọn mục Allow Null cho cột tương ứng trong bảng, nghĩa là:
+
+· d. Không ràng buộc dữ liệu theo điều kiện
+
+· a. Bắt buộc nhập dữ liệu cho cột đó
+
+· *b. Không bắt buộc nhập dữ liệu cho cột đó
+
+· c. Ràng buộc dữ liệu theo điều kiện
+
+Câu 4: Tạo cấu trúc bảng trong SQL có 3 thành phần: Column Name, Data Type, Allow Nulls. Tác dụng của Data Type:
+
+· c. Chọn kiểu cột tương ứng
+
+· a. Tạo mới kiểu dữ liệu cho cột tương ứng
+
+· d. Tạo mới kiểu cột tương ứng
+
+· *b. Chọn kiểu dữ liệu cho cột tương ứng
+
+Câu 5: Cấu trúc lời gọi SP:
+
+· c. exec <tên SP> [ <danh sách các tham số> <kiểu dữ liệu>]
+
+· *a. exec <tên SP> [<danh sách các tham số>]
+
+· d. exec <tên SP>
+
+· b. run <tên SP> [ <danh sách các tham số> <kiểu dữ liệu>]
+
+Câu 6: Inner Join là kiểu liên kết:
+
+· *a. bằng
+
+· c. trái
+
+· b. bình thường
+
+· d. đầy đủ
+
+Câu 7: Tạo cấu trúc bảng trong SQL có 3 thành phần: Column Name, Data Type, Allow Nulls. Allow Nulls có tác dụng:
+
+· b. Không bắt buộc người dùng nhập dữ liệu
+
+· *d. Ràng buộc người dùng bắt buộc nhập dữ liệu cho cột tương ứng hoặc không
+
+· c. Bắt buộc người dùng nhập dữ liệu
+
+· a. Người dùng không được để trống tất cả các cột trong bảng
+
+Câu 8: Trong Cú pháp câu lệnh ràng buộc Forein Key, từ khoá On Update có nghĩa:
+
+· a. ràng buộc được phép cập nhật khoá FK
+
+· b. bắt buộc phải cập nhật dữ liệu cho bảng
+
+· c. không được cập nhật dữ liệu
+
+· *d. áp dụng câu lệnh cho thao tác cập nhật dữ liệu
+
+Câu 9: Cú pháp câu lệnh xoá thủ tục?
+
+· d. delete store procedure <tên thủ tục>
+
+· a. delete procedure <tên thủ tục>
+
+· c. drop store procedure <tên thủ tục>
+
+· *b. drop procedure tên thủ tục
+
+Câu 10: Câu lệnh xoá bảng trong SQL:
+
+· a. Drop table <tên bảng cần xoá > Where <điều kiện xoá>
+
+· d. Delete table <tên bảng cần xoá > Where <điều kiện xoá>
+
+· *c. Drop table <tên bảng cần xoá >
+
+· b. Delete table <tên bảng cần xoá >
+
+Câu 11: Cú pháp câu lệnh khai báo tham số:
+
+· a. <kiểu dữ liệu> @<tên tham số>
+
+· b. declare @<tên tham số> < kiểu dữ liệu>
+
+· c. var @<tên tham số> <kiểu dữ liệu>
+
+· *d. @<tên tham số> <kiểu dữ liệu>
+
+Câu 12: Câu lệnh thêm một cột vào bảng trong SQL:
+
+· c. Insert table <Tên bảng cần sửa> <tên cột mới> <kiểu dữ liệu> [ràng buộc]
+
+· *b. Alter table <Tên bảng cần sửa> Add <tên cột mới> <kiểu dữ liệu> [ràng buộc]
+
+· a. Add table <Tên bảng cần sửa> <tên cột mới> <kiểu dữ liệu> [ràng buộc]
+
+· d. Add <Tên bảng cần sửa> <tên cột mới> <kiểu dữ liệu> [ràng buộc]
+
+Câu 13: Trong khai báo thủ tục, thân thủ tục chính bắt đầu sau từ khoá nào?
+
+· b. begin
+
+· d. create
+
+· *c. as
+
+· a. create procedure
+
+Câu 14: Tạo cấu trúc bảng trong SQL, nếu tại Data Type của cột tương ứng người dùng chọn kiểu ‘‘Nchar(n)’’ thì dữ liệu của cột đó nhận giá trị dạng:
+
+· a. Chuỗi với độ dài chính xác hỗ trợ Unicode
+
+· c. Chuỗi với độ dài cố định
+
+· d. Chuỗi với độ dài chính xác
+
+· *b. Chuỗi với độ dài cố định hỗ trợ Unicode
+
+Câu 15: Tạo cấu trúc bảng trong SQL, nếu tại Data Type của cột tương ứng người dùng chọn kiểu ‘‘float’’ thì dữ liệu của cột đó nhận giá trị dạng:
+
+· c. Logic
+
+· *d. Số thực
+
+· a. Văn bản
+
+· b. Số Nguyên
+
+Câu 16: Cú pháp câu lệnh khai báo biến:
+
+· d. var @<tên biến> <kiểu dữ liệu>
+
+· *a. declare @<tên biến> <kiểu dữ liệu>
+
+· c. var <tên biến> <kiểu dữ liệu>
+
+· b. @<tên biến><kiểu dữ liệu>
+
+Câu 17: Trong Cú pháp câu lệnh ràng buộc Forein Key, từ khoá On Delete có nghĩa ?
+
+· *b. áp dụng câu lệnh cho thao tác xoá dữ liệu
+
+· c. không bắt buộc xoá dữ liệu cho bảng
+
+· a. bắt buộc phải xoá dữ liệu trong bảng
+
+· d. ràng buộc được phép xoá khoá FK
+
+Câu 18: Left Join là kiểu liên kết:
+
+· c. đầy đủ
+
+· *a. trái
+
+· d. bình thường
+
+· b. phải
+
+Câu 19: Từ khoá khai báo hàm:
+
+· *a. create function
+
+· b. create procedure
+
+· c. create table
+
+· d. creat scala
+
+Câu 20: Prameter là:
+
+· c. chú thích
+
+· b. biến
+
+· a. lời gọi
+
+· *d. tham số
+
+Câu 21: Tạo cấu trúc bảng trong SQL, nếu tại mục Data Type của cột tương ứng người dùng chọn kiểu ‘‘Nvarchar(50)’’ thì dữ liệu của cột đó nhận giá trị dạng:
+
+· d. Chuỗi với độ dài cố định
+
+· a. Chuỗi với độ dài chính xác
+
+· c. Chuỗi với độ dài cố định hỗ trợ Unicode
+
+· *b. Chuỗi với độ dài chính xác hỗ trợ Unicode
+
+Câu 22: Right Join là kiểu liên kết:
+
+· a. trái
+
+· *b. phải
+
+· d. bình thường
+
+· c. đầy đủ
+
+Câu 23: Cú pháp câu lệnh sửa thủ tục?
+
+· *c. alter procedure <tên thủ tục>[<danh sách các tham số>]
+
+· b. alter table <tên thủ tục>
+
+· d. alter store procedure <tên thủ tục>[<danh sách các tham số>]
+
+· a. alter procedure <tên thủ tục> [<danh sách các tham số><kiểu dữ liệu>]
+
+Câu 24: Câu lệnh tạo cấu trúc bảng trong SQL:
+
+· d. Insert into Table <tên bảng> ( <danh sách các cột > <kiểu dữ liệu> [<ràng buộc>
+
+· a. Creat New Table <tên bảng> ( <danh sách các cột > <kiểu dữ liệu> [<ràng buộc>]
+
+· *b. Creat Table <tên bảng> ( <danh sách các cột > <kiểu dữ liệu> [<ràng buộc>]
+
+· c. Creat into Table <tên bảng> ( <danh sách các cột > <kiểu dữ liệu> [<ràng buộc>]
+
+Câu 25: Cú pháp câu lệnh nhập dữ liệu trong SQL:
+
+· a. INSERT <tên bảng> INTO <các giá trị ứng với các thuộc tính>
+
+· *d. INSERT INTO <tên bảng> VALUES (<các giá trị ứng với các thuộc tính>)
+
+· b. INSERT INTO <tên bảng> <các giá trị ứng với các thuộc tính>
+
+· c. INSERT <tên bảng> VALUES <các giá trị ứng với các thuộc tính>
+
+Câu 26: Câu lệnh sửa cấu trúc bảng trong SQL:
+
+· b. Alter New Table <tên bảng> ( <danh sách các cột cần sửa> <kiểu dữ liệu> [<ràng buộc>]
+
+· c. Alter into Table <tên bảng> ( <danh sách các cột cần sửa> <kiểu dữ liệu> [<ràng buộc>]
+
+· *a. Alter Table <tên bảng> ( <danh sách các cột cần sửa> <kiểu dữ liệu> [<ràng buộc>]
+
+· d. Update into Table <tên bảng> ( <danh sách các cột cần sửa> <kiểu dữ liệu> [<ràng buộc>
+
+Câu 27: Từ khoá tạo SP:
+
+· c. create new procedure
+
+· *a. create procedure
+
+· b. create function
+
+· d. create store procedure
+
+Câu 28: Tạo cấu trúc bảng trong SQL, nếu tại Data Type của cột tương ứng người dùng chọn kiểu ‘‘int’’ thì dữ liệu của cột đó nhận giá trị dạng:
+
+· d. Số nguyên (1 byte)
+
+· b. Số nguyên lớn (8 byte)
+
+· a. Số nguyên ( 2 byte)
+
+· *c. Số nguyên (4 byte)
+
+Câu 29: Cú pháp câu lệnh cập nhật (hoặc sửa) dữ liệu:
+
+· *c. UPDATE <tên bảng> SET <thuộc tính cần cập nhật> = <giá trị cập nhật> FROM <tên các bảng> WHERE <biểu thức điều kiện>
+
+· d. UPDATE <tên bảng> <các thuộc tính cần cập nhật> SET (<các giá trị cập nhật>) FROM <tên các bảng>WHERE <biểu thức điều kiện>
+
+· b. UPDATE <tên bảng> <thuộc tính cần cập nhật> = <giá trị cập nhật> FROM <tên các bảng> WHERE <biểu thức điều kiện>
+
+· a. UPDATE INTO <tên bảng> SET <thuộc tính cần cập nhật> = <giá trị cập nhật> FROM <tên các bảng> WHERE <biểu thức điều kiện>
+
+Câu 30: Tạo cấu trúc bảng trong SQL, nếu tại mục Data Type của cột tương ứng người dùng chọn kiểu ‘‘Bigint’’ thì dữ liệu của cột đó nhận giá trị dạng:
+
+· a. Số thực dài
+
+· c. Số thực
+
+· b. Số nguyên (4 byte)
+
+· *d. Số nguyên lớn ( 8 byte)
+
+Câu 31: Tạo cấu trúc bảng trong SQL, nếu tại Data Type của cột tương ứng người dùng chọn kiểu ‘‘Bit’’ thì dữ liệu của cột đó nhận giá trị dạng:
+
+· a. Nhị phân
+
+· *b. Logic
+
+· d. Số
+
+· c. Ký tự
+
+Câu 32: Full Join là kiểu liên kết:
+
+· b. bình thường
+
+· a. bằng
+
+· c. tổng hợp
+
+· *d. đầy đủ
+
+Câu 33: Cấu trúc khai báo một SP:
+
+· a. create store procedure <tên thủ tục> [<danh sách các tham số><kiểu dữ liệu tương ứng>] as <thân thủ tục>
+
+· *b. create procedure <tên thủ tục> [<danh sách các tham số><kiểu dữ liệu tương ứng>] as <thân thủ tục>
+
+· d. create procedure <tên thủ tục> [<danh sách các tham số>] as <thân thủ tục>
+
+· c. create procedure <tên thủ tục> ([<danh sách các tham số><kiểu dữ liệu tương ứng>]) as <thân thủ tục>
+
+Câu 34: Cú pháp câu lệnh xoá dữ liệu:
+
+· *d. DELETE <tên bảng> WHERE <điều kiện>
+
+· c. DROP <tên bảng>
+
+· b. DROP <tên bảng> WHERE <điều kiện>
+
+· a. DELETE <tên bảng>
+
+Câu 35: Tạo cấu trúc bảng trong SQL có 3 thành phần: Column Name, Data Type, Allow Nulls. Column Name để:
+
+· a. Người dùng đặt tên bản ghi cho bảng
+
+· d. Người dùng chọn tên cột trong danh sách cho bảng
+
+· *b. Người dùng đặt tên cột cho bảng
+
+· c. Người dùng đặt tên bảng
+
+Câu 36: Cú pháp đầy đủ của câu lệnh ràng buộc Primary Key?
+
+· c. PRIMARY KEY [(danh sách cột)]
+
+· *a. [CONSTRAINT tên ràng buộc] PRIMARY KEY [(danh sách cột)]
+
+· d. PRIMARY KEY
+
+· b. CONSTRAINT tên ràng buộc PRIMARY KEY (danh sách cột)
+
+Câu 37: Cú pháp xoá khung nhìn View:"
+
+· *d. drop view <tên khung nhìn>
+
+· c. delete view <tên khung nhìn> [(danh sách các cột)] as Câu lệnh select
+
+· b. drop view <tên khung nhìn> [(danh sách các cột)] as Câu lệnh select
+
+· a. erase view <tên khung nhìn> [(danh sách các cột)] as Câu lệnh select
+
+Câu 38: Câu lệnh SELECT…FORM kết hợp với mệnh đề nào để lọc các dòng dữ liệu bên trong bảng thỏa mãn điều kiện cho trước?
+
+· d. WHERE …ORDER BY…GROUP BY
+
+· *b. WHERE
+
+· c. GROUP BY
+
+· a. GROUP BY…HAVING
+
+Câu 39: Cú pháp của truy vấn lồng sử dụng having?
+
+· d. Select (tên trường) Where (điều kiện) Group by ( tên trường) Having ( điều kiện)
+
+· c. Select (tên trường, tên bảng) From (tên bảng) Where (điều kiện) Group by ( tên bảng) Having ( điều kiện)
+
+· *b. Select (tên trường) From (tên bảng) Where (điều kiện) Group by ( tên trường) Having ( điều kiện)
+
+· a. Select (tên trường) From (tên bảng) Where (điều kiện) Having ( điều kiện)
+
+Câu 40: Sử dụng từ khoá GROUP BY trong câu lệnh select khi:
+
+· d. Ta muốn xử lý các bảng theo nhóm
+
+· c. Ta muốn hiển thị dữ liệu theo nhóm
+
+· *b. Ta muốn xử lý dữ liệu trên từng nhóm
+
+· a. Ta muốn nhóm dữ liệu theo thứ tự tăng dần
+
+Câu 41: Muốn chèn một cột từ bảng cũ sang bảng mới ta sử dụng câu lệnh gì?
+
+· a. select <tên cột> from <tên bảng> where <bảng mới>
+
+· d. select <bảng mới> where <bảng cũ> into <tên cột>
+
+· c. select <bảng cũ> where <bảng mới> into <tên cột>
+
+· *b. select <tên cột cần chèn> into <bảng mới> from <bảng cũ>
+
+Câu 42: trong câu lệnh chọn dữ liệu, sau từ khoá ‘‘From ’’ sẽ là:
+
+· d. Danh sách các bảng chứa các cột được hiển thị
+
+· c. Danh sách tất cả các bảng
+
+· a. Danh sách cột được sử dụng trong câu lệnh select
+
+· *b. Danh sách bảng chứa các cột được sử dụng trong câu lệnh select
+
+Câu 43: Trong một bảng, một cột có thể chứa nhiều giá trị giống nhau, và đôi khi bạn chỉ muốn liệt kê các giá trị khác nhau (khác biệt). Phải dùng cú pháp gì?
+
+· *a. SELECT DISTINCT cột truy vấn FROM bảng truy vấn
+
+· c. SELECT cột truy vấn FROM bảng truy vấn
+
+· b. Select * from bảng truy vấn
+
+· d. SELECT cột truy vấn FROM bảng truy vấn where cột truy vấn operator value
+
+Câu 44: Để hiển thị bảng theo thứ tự giảm dần của cột ‘‘TongDiem’’, trong câu lệnh select ta sử dụng lệnh
+
+· *a. order by TongDiem Desc
+
+· d. sort on TongDiem Desc
+
+· b. order by TongDiem/D
+
+· c. sort on TongDiem/D
+
+Câu 45: Muốn lấy 2 cột giá cả và tên sản phẩm trong n cột của bảng hóa đơn thực hiện?
+
+· *a. Select giaca,tensanpham from hoadon.
+
+· d. Select tensanpham from hoadon where stt>3
+
+· b. Select * from hoadon.
+
+· c. Select giaca from sanpham.
+
+Câu 46: Hàm nội tuyến là:
+
+· b. Chỉ trả về một kết quả nội bộ
+
+· *d. Là hàm đọc bảng từ câu lệnh select
+
+· c. Là hàm định nghĩa bảng từ nhiều câu lệnh
+
+· a. Là hàm đọc bảng từ nhiều câu lệnh
+
+Câu 47: Hàm SELECT COUNT(DISTINCT column_name) FROM table_name trả về giá trị gì ?
+
+· a. Trả về giá trị trùng với giá trị được chỉ định
+
+· c. Cú pháp trên sai
+
+· d. Không trả về gì cả
+
+· *b. Trả về số lượng giá trị khác nhau của cột được chỉ định
+
+Câu 48: Từ khoá LIKE(NOT LIKE) sử dụng trong câu lệnh SELECT nhằm:
+
+· a. Tất cả đáp án đều đúng
+
+· *d. Mô tả khuôn dạng của dữ liệu cần tìm kiếm.
+
+· c. Tạo một bảng mới có cấu trúc và dữ liệu được xác định từ kết quảcủa truy vấn
+
+· b. Để kiểm tra xem giá trị dữ liệu nằm trong (ngoài) một khoảng nào đó
+
+Câu 49: Từ khoá lệnh sửa hàm?
+
+· *b. Alter Function
+
+· a. Alter procedure
+
+· c. Update Function
+
+· d. Edit Funtion
+
+Câu 50: Câu lệnh Mysql nào được dùng để trích xuất dữ liệu từ database:
+
+· d. open
+
+· a. Get
+
+· c. Extract
+
+· *b. Select
+
+Câu 51: Trong câu lệnh hiển thị dữ liệu Select, từ khoá ‘‘Top n’’ có tác dụng:
+
+· c. Chỉ hiển thị n giá trị trong bảng
+
+· *b. Hiển thị n bản ghi đầu tiên trong bảng
+
+· d. Hiển thị n giá trị lớn nhất trong bảng
+
+· a. Hiển thị n cột đầu tiền trong bảng
+
+Câu 52: Cho bảng sinhvien gồm các trường sau: masv, hoten, gioitinh, ngaysinh, diachi, malop, hocbong. Câu lệnh nào trả về kết quả những sinh viên có năm sinh từ 1991 đến 1993 và nhóm theo masv?
+
+· c. SELECT* FROM sinhvien WHERE year(ngaysinh)= 1991 and 1993 ORDER BY masv
+
+· *b. SELECT* FROM sinhvien WHERE year(ngaysinh) between 1991 and 1993 ORDER BY masv
+
+· a. SELECT* FROM sinhvien WHERE ngaysinh between 1991 and 1993 ORDER BY masv
+
+· d. SELECT* FROM sinhvien WHERE year(ngaysinh)= 1991 or 1993 ORDER BY masv
+
+Câu 53: Hàm kiểu Scalar là:
+
+· b. Hàm mà kết quả trả về là một bảng
+
+· a. Hàm mà kết quả trả về có thể một hoặc nhiều giá trị
+
+· *d. Hàm mà kết quả trả về một giá trị
+
+· c. Hàm mà kết quả trả về nhiều giá trị
+
+Câu 54: Trong câu lệnh hiển thị dữ liệu Select, từ khoá ‘‘INTO ’’ có tác dụng:
+
+· c. Cập nhật dữ liệu vào bảng đã có
+
+· d. Cập nhật dữ liệu vào bảng mới
+
+· a. Trả kết quả từ lệnh select vào bảng đã có
+
+· *b. Tạo bảng mới là kết quả c
+
+hìn View:
+
+· b. create new view <tên khung nhìn> [(danh sách các cột)] as Câu lệnh select
+
+· c. create new <tên khung nhìn> [(danh sách các cột)] as Câu lệnh select
+
+· *d. create view <tên khung nhìn> [(danh sách các cột)] as Câu lệnh select
+
+· a. create view <tên khung nhìn> [(danh sách các cột)] Begin Câu lệnh select End
+
+Câu 56: Trong CSDL QLDIEM, cho 2 bảng LOP(MALOP, TENLOP), HOCSINH(MASV, HOTEN, MALOP). Bảng HOCSINH liên kết với bảng LOP qua cấu trúc nào?
+
+· d. Constraint HOCSINH_LOP foreign key LOP(MALOP) references HOCSINH(MALOP)
+
+· a. Constraint LOP_HOCSINH foreign key LOP(MALOP) references HOCSINH(MALOP)
+
+· *c. Constraint HOCSINH_LOP foreign key HOCSINH(MALOP) references LOP(MALOP)
+
+· b. Constraint LOP_HOCSINH foreign key HOCSINH(MALOP) references LOP(MALOP)
+
+Câu 57: Cho lệnh truy vấn sau SELECT hodem, ten, diemtb, MAX(diemtb) FROM sv ORDER BY diemtb DESC; Lệnh trên đưa ra kết quả nao sau đây?
+
+· d. Tất cả đáp án trên đều sai
+
+· b. Đưa ra thông tin của sinh viên theo các trường đã chọn sắp xếp giảm dần
+
+· a. Đưa ra thông tin của sinh viên theo các trường đã chọn
+
+· *c. Đưa ra thông tin của sinh viên theo các trường đã chọn sắp xếp giảm dần theo trường diemtb
+
+Câu 58: Cú pháp tạo hàm dạng Scalar:
+
+· d. create function <tên hàm> returns <kiểu dữ liệu trả về> as begin <các câu lệnh> end
+
+· *b. create function <tên hàm> ([<danh sách tham số> <kiểu dữ liệu>]) returns <kiểu dữ liệu trả về> as begin <các câu lệnh> end
+
+· a. create function <tên hàm> ([<danh sách tham số> <kiểu dữ liệu>]) returns table as begin <các câu lệnh> end
+
+· c. create function <tên hàm> ([<danh sách tham số> <kiểu dữ liệu>]) returns @<tên bảng> table <định nghĩa bảng> as begin <các câu lệnh> end
+
+Câu 59: Trong thân chương trình hàm nội tuyến :
+
+· *c. Chỉ có một lệnh Select
+
+· b. Tồn tại nhiều câu lệnh tạo thành một bảng
+
+· d. Đọc bảng từ nhiều câu lệnh
+
+· a. Tập hợp nhiều câu lệnh khác nhau nhưng trả về một giá trị
+
+Câu 60: Cấu trúc câu lệnh Case trong SQL:
+
+· d. case when <điều kiện i> do <kết quả thứ i> …. Else <kết quả thứ n+1> end
+
+· b. select case when <điều kiện i> then <kết quả thứ i> …. Else <kết quả thứ n+1> end
+
+· *c. case when <điều kiện i> then <kết quả thứ i> …. Else <kết quả thứ n+1> end
+
+· a. case if<điều kiện i> then <kết quả thứ i> …. Else <kết quả thứ n+1> end
+
+Phần 3
+
+Câu 61: trong câu lệnh chọn dữ liệu, sau từ khoá ‘‘Having ’’ sẽ là:
+
+· *c. Biểu thức điều kiện của nhóm
+
+· a. Ràng buộc cột trong nhóm
+
+· d. Ràng buộc bản ghi trong bảng
+
+· b. Biểu thức điều kiện của lệnh select
+
+Câu 62: Các phép toán gộp nhóm được sử dụng sau mệnh đề?
+
+· a. SELECT
+
+· c. WHERE
+
+· *d. GROUP BY
+
+· b. FROM
+
+Câu 63: Câu lệnh đưa ra nhân viên có lương cao hơn lương tất cả nhân viên phòng NS?
+
+· *b. Select MNV,Tennv From nhanvien Where luong > ( Select max (luong) From nhanvien Where phongban=’NS’)
+
+· d. Select MNV,Tennv From nhanvien Where luong > ( Select max (luong) From nhanvien )
+
+· c. Select MNV,Tennv From nhanvien Where max (luong) Where phongban=’NS’
+
+· a. Select MNV,Tennv From nhanvien Where luong > ( Select max (luong) From nhanvien)
+
+Câu 64: Sau khi tạo Trigger, bảng Deleted được tạo:
+
+· a. bởi lệnh create trigger
+
+· c. được tạo bởi sau khi chạy trigger bởi lệnh exec<tên trigger>
+
+· d. bởi lệnh create Delete <tên trigger>
+
+· *b. tự động sau khi biên dịch trigger vừa tạo
+
+Câu 65: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: DiemKhoiA(SoBaoDanh Nvarchar(50), DiemToan Float, DiemLy Float, DiemHoa Float, DiemUuTien Float, TongDiem Float, KetQua Nvarchar(50)). Câu lệnh đếm tổng số thí sinh có kết quả ‘‘đỗ’’:
+
+· c. SELECT count(‘đỗ’) as SoLuongThiSinhDo FROM DiemKhoiA
+
+· *a. SELECT count(*) as SoLuongThiSinhDo FROM DiemKhoiA WHERE KetQua= ‘đỗ’
+
+· b. UPDATE DiemKhoiA SET SoLuongThiSinhDo = count(‘đỗ’)
+
+· d. SELECT count(‘đỗ’) as SoLuongThiSinhDo FROM DiemKhoiA GROUP BY KetQua
+
+Câu 66: Các lệnh sau đây lệnh nào đúng?
+
+· b. SELECT * FROM t1 ORDER BY id ASC;
+
+· a. SELECT * FROM t1 ORDER BY id DESC;
+
+· c. SELECT * FROM t1 ORDER BY id;
+
+· *d. Tất cả đều đúng
+
+Câu 67: Câu lệnh nào sau đây giúp lấy dữ liệu của các cột bên trong bảng đồng thời sắp xếp theo thứ tự tăng dần?
+
+· c. SELECT…FROM…WHERE …[ORDER BY…[DESC,…]]
+
+· *b. SELECT…FROM…ORDER BY…[ASC,…]
+
+· a. SELECT…FROM…WHERE
+
+· d. SELECT…FROM…ORDER BY…[DESC,…]
+
+Câu 68: Trong toán tử Like, kí tự [_] biểu thị điều gì?
+
+· c. Kí tự không nằm trong các giới hạn
+
+· *d. Kí tự đơn bất kì trong giới hạn
+
+· a. Thể hiện nhiều kí tự trong xâu
+
+· b. Bắt buộc chỉ được 1 kí tự
+
+Câu 69: Cú pháp của ‘’order by’’ là gì?
+
+· *a. ORDER BY {col_name | formula} [ASC | DESC] ,...
+
+· d. ORDER BY {col_name | formula}
+
+· b. ORDER BY {row_name | formula}
+
+· c. ORDER BY {row_name | formula} [ASC | DESC] ,...
+
+Câu 71: Câu lệnh DELEDE sử dụng để?
+
+· b. Cập nhật hồ sơ hiện có trong một bảng
+
+· d. Tất cả đáp án đều chính xác
+
+· c. Chèn một hàng mới trong một bảng
+
+· *a. Xoá các hàng trong một bảng
+
+Câu 72: Phép chọn được thực hiện sau mệnh đề nào trong SELECT-FROM-WHERE?
+
+· *b. GROUP BY HAVING
+
+· a. WHERE
+
+· d. FROM
+
+· c. SELECT
+
+Câu 74: Trong kết quả của truy vấn có thể xuất hiện các dòng dữ liệu trùng nhau. Để loại bỏ bớt các dòng này, ta chỉ định thêm từ khóa gì ngay sau từ khoá
+
+· c. DELETE
+
+· *a. DISTINCT
+
+· e. WHERE
+
+· d. TOP
+
+· b. SELECT:
+
+Câu 75: Thứ tự đúng trong câu lệnh SELECT là?
+
+· c. SELECT, FROM, GROUP BY HAVING, ORDER BY
+
+· *b. SELECT, FROM, WHERE, GROUP BY HAVING, ORDER BY
+
+· a. SELECT, FROM, GROUP BY HAVING, ORDER BY
+
+· d. SELECT, FROM, GROUP BY HAVING, WHERE, ORDER BY
+
+Câu 76: trong câu lệnh chọn dữ liệu, sau từ khoá ‘‘Where ’’ sẽ là:
+
+· d. Các cột cần dùng trong bảng select
+
+· a. Biểu thức điều kiện ràng buộc các cột hiển thị trong lệnh select
+
+· c. Các bảng cần dùng trong lệnh select
+
+· *b. Biểu thức điều kiện ràng buộc các bản ghi hiển thị trong lệnh select
+
+Câu 77: Trường hợp nào ta cần sử dụng cấu trúc lệnh SELECT lồng nhau:
+
+· a. Khi trong câu lệnh có nhiều điều kiện cùng phải thoả mãn
+
+· *c. Khi giá trị điều kiện sau mệnh đề Where chưa xác định
+
+· b. Khi có mỗi cột hiển thị phải thoả mãn một điều kiện khác nhau
+
+· d. Khicó các cột muốn hiển thị trên nhiều bảng khác nhau
+
+Câu 78: Chọn câu trả lời đúng .
+
+· c. ORDER BY sắp xếp thứ tự các hàng kết quả. Bạn có thể chọn sắp xếp các hàng kết quả bằng chỉ thị ASC (sắp theo thứ tự giảm dần) hay DESC (sắp theo thứ tự tăng dần). Giá trị mặc định là ASC.
+
+· b. ORDER BY sắp xếp thứ tự các hàng kết quả. Bạn có thể chọn sắp xếp các hàng kết quả bằng chỉ thị ASC (sắp theo thứ tự giảm dần) hay DESC (sắp theo thứ tự tăng dần)
+
+· d. ORDER BY sắp xếp thứ tự các hàng kết quả. Bạn có thể chọn sắp xếp các hàng kết quả bằng chỉ thị ASC (sắp theo thứ tự tăng dần) hay DESC (sắp theo thứ tự giảm dần)
+
+· *a. ORDER BY sắp xếp thứ tự các hàng kết quả. Bạn có thể chọn sắp xếp các hàng kết quả bằng chỉ thị ASC (sắp theo thứ tự tăng dần) hay DESC (sắp theo thứ tự giảm dần). Giá trị mặc định là ASC.
+
+Câu 79: Các lệnh ALTER TABLE được sử dụng để?
+
+· a. Xóa một bảng trong một cơ sở dữ liệu
+
+· *d. Thêm, xóa hoặc sửa đổi các cột trong một bảng hiện tại
+
+· b. Tất cả đáp án đều đúng
+
+· c. Tạo ra một bảng trong một cơ sở dữ liệu
+
+Câu 80: Cú pháp nào sau đây dùng để xóa bảng?
+
+· *d. DROP TABLE
+
+· c. CREAT TABLE
+
+· b. DROP COLUMN
+
+· a. ALTER TABLE
+
+Câu 81: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: DiemKhoiA(SoBaoDanh Nvarchar(50), DiemToan Float, DiemLy Float, DiemHoa Float, DiemUuTien Float, TongDiem Float, KetQua Nvarchar(50)) Cho biết thông tin của các thí sinh có ít nhất một trong 3 môn thi bị điểm liệt (điểm liệt = 0)?
+
+· d. SELECT * FROM DiemKhoiA WHERE min(DiemToan, DiemLy, DiemHoa)=0
+
+· *b. SELECT * FROM DiemKhoiA WHERE DiemToan=0 or DiemLy=0 or DiemHoa=0
+
+· c. SELECT * FROM DiemKhoiA WHERE DiemToan>=0 or DiemLy>=0 or DiemHoa>=0
+
+· a. SELECT * FROM DiemKhoiA WHERE DiemToan=0 and DiemLy=0 and DiemHoa=0
+
+Câu 82: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: DiemKhoiA(SoBaoDanh Nvarchar(50), DiemToan Float, DiemLy Float, DiemHoa Float, DiemUuTien Float, TongDiem Float, KetQua Nvarchar(50)) Câu lệnh hiển thị thông tin người có tổng điểm 3 môn cao nhất:
+
+· b. SELECT * FROM DiemKhoiA WHERE TongDiem=max(DiemToan+ DiemLy+ DiemHoa)
+
+· *a. SELECT * FROM DiemKhoiA WHERE DiemToan+ DiemLy+ DiemHoa = max(DiemToan+ DiemLy+ DiemHoa)
+
+· c. SELECT * FROM DiemKhoiA WHERE max(DiemToan+ DiemLy+ DiemHoa)
+
+· d. SELECT max(DiemToan+ DiemLy+ DiemHoa) FROM DiemKhoiA
+
+Câu 83: Trong câu lệnh hiển thị dữ liệu Select, từ khoá Distinct có tác dụng:
+
+· a. Bổ sung dòng dữ liệu khác với điều kiện
+
+· b. Loại bỏ các dòng dữ liệu khác biệt trong bảng
+
+· c. Bổ sung dòng dữ liệu giống với điều kiện
+
+· *d. Loại bỏ các dòng dữ liệu giống nhau trong bảng
+
+Câu 84: Cho lệnh sau truy vấn sau: SELECT * FROM sv ORDER BY diemtb DESC; Lệnh trên đưa ra kết quả nào?
+
+· *a. Đưa ra dữ liệu bảng sv sắp xếp giảm dần theo trường diemtb
+
+· d. Cú pháp lệnh sai
+
+· b. Đưa ra dữ liệu bảng sv sắp xếp tăng dần theo trường diemtb
+
+· c. Đưa ra dữ liệu bảng sv
+
+Câu 85: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: DiemKhoiA(SoBaoDanh Nvarchar(50), DiemToan Float, DiemLy Float, DiemHoa Float, DiemUuTien Float, TongDiem Float, KetQua Nvarchar(50)) Câu lệnh chọn lọc danh sách những thí sinh có tổng điểm (TongDiem) từ 13 điểm trở lên:
+
+· d. SELECT * FROM DiemKhoiA WHERE TongDiem>=13 GROUP BY TongDiem
+
+· *b. SELECT * FROM DiemKhoiA WHERE TongDiem>=13
+
+· a. SELECT * FROM DiemKhoiA WHERE TongDiem>13
+
+· c. SELECT SoBaoDanh, DiemToan, DiemLy, DiemHoa FROM DiemKhoiA WHERE TongDiem>=13
+
+Câu 86: Trong Trigger, Dữ liệu trong bảng Delete được cập nhật khi:
+
+· *d. có một hành động xoá của bảng có ràng buộc trigger
+
+· b. có một hành động xoá của bảng bất kỳ trong SQL
+
+· c. trong bảng Delete không cập nhật dữ liệu
+
+· a. Khi người dùng nhập dữ liệu cho bảng
+
+Câu 87: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: DiemKhoiA(SoBaoDanh Nvarchar(50), DiemToan Float, DiemLy Float, DiemHoa Float, DiemUuTien Float, TongDiem Float, KetQua Nvarchar(50)) Câu lệnh cập nhật thông tin cho cột kết quả (cột KetQua) cho từng thí sinh, với thí sinh có tổng điểm từ 13 điểm trở lên thì ghi kết quả ‘‘đỗ’’, ngược lại ghi kết quả là ‘‘trượt’’):
+
+· c. UPDATE DiemKhoiA SET KetQua = CASE WHEN TongDiem>=13 THEN N‘đỗ’ ELSE N‘trượt’
+
+· *a. UPDATE DiemKhoiA SET KetQua = CASE WHEN TongDiem>=13 THEN N‘đỗ’ ELSE N‘trượt’ END
+
+· b. UPDATE DiemKhoiA SET CASE WHEN TongDiem>=13 THEN KetQua = N‘đỗ’ ELSE KetQua = N‘trượt’ END
+
+· d. UPDATE DiemKhoiA SET KetQua = CASE WHEN TongDiem>=13 THEN N‘đỗ’ ELSE N‘trượt’ END FROM DiemKhoiA
+
+Câu 88: Người dùng thường tạo Trigget cấm nhập dữ liệu áp dụng cho:
+
+· c. Cả bảng cha và bảng con
+
+· d. Cho tất cả các bảng trong Database
+
+· *a. Bảng con
+
+· b. Bảng cha
+
+Câu 89: Ràng buộc check được sử dụng :
+
+· a. Tất cả đều sai
+
+· b. Định nghĩa khoá chính của bảng
+
+· *d. Chỉ định điều kiện hợp lệ đối với dữ liệu
+
+· c. Dùng trong câu lệnh CREATE TABLE để định nghĩa khoá phụ cho bảng
+
+Câu 90: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: DiemKhoiA(SoBaoDanh Nvarchar(50), DiemToan Float, DiemLy Float, DiemHoa Float, DiemUuTien Float, TongDiem Float, KetQua Nvarchar(50)) Câu lệnh Hiển thị thông tin người có tổng điểm thấp nhất:
+
+· *b. SELECT * FROM DiemKhoiA WHERE TongDiem=min(TongDiem)
+
+· d. SELECT min(TongDiem) FROM DiemKhoiA GROUP BY TongDiem
+
+· a. SELECT * FROM DiemKhoiA WHERE min(TongDiem)
+
+· c. SELECT min(TongDiem) FROM DiemKhoiA
+
+Câu 91: My SQL là viết tắt của:
+
+· *b. My Structured Query Language
+
+· d. Tất cả đều sai(trừ đáp án này)
+
+· a. My System Query Language
+
+· c. Tất cả đều đúng(trừ đáp án này)
+
+Câu 92: Trong câu lệnh hiển thị dữ liệu Select, dấu ‘‘*’’ có tác dụng:
+
+· b. Chọn tất cả các dòng dữ liệu có trong bảng
+
+· *a. Chọn tất cả các cột có trong bảng
+
+· c. Hiển thị toàn bộ bảng
+
+· d. Hiển thị cột khoá trong bảng
+
+Câu 93: trong câu lệnh chọn dữ liệu, sau từ khoá Select sẽ là:
+
+· d. [ * | DISTINCT] [ TOP n] [ INTO tên bảng mới ]
+
+· a. [ * | DISTINCT] [ TOP n] danh_sách_các cột
+
+· *b. [ * | DISTINCT] [ TOP n] danh_sách_các cột [ INTO tên bảng mới]
+
+· c. [ * | DISTINCT] danh_sách_các cột [ INTO tên bảng mới ]
+
+Câu 94: Để lấy ra 3 ký tự đầu của chuỗi lệnh nào là đúng:
+
+· c. SELECT LEN('123456')
+
+· d. SELECT REPLICATE('123456',5)
+
+· b. SELECT RIGHT('123456',3)
+
+· *a. SELECT LEFT('123456',3)
+
+Câu 95: Xóa tất cả các ký tự rỗng, khoảng trắng ở ĐầU chuỗi
+
+· b. SELECT REVERSE('ABCDEF')
+
+· *a. SELECT LTRIM(' ABC ')
+
+· d. Tất cả các đáp án đều sai
+
+· c. SELECT RTRIM(' ABC ')
+
+Câu 96: Câu lệnh INSERT dung để làm gì?
+
+· d. Là câu lệnh cập nhập/ sửa đổi trong CSDL
+
+· *c. Là câu lệnh thêm thông tin vào CSDL
+
+· b. Là câu lệnh tìm kiếm/xóa thông tin trong CSDL
+
+· a. Là câu lệnh lấy dữ liệu trong CSDL
+
+Câu 97: Câu Lệnh Insert Into dung để làm gì trong CSDL?
+
+· *a. Câu lệnh INSERT INTO được dùng để chèn dòng mới vào bảng
+
+· b. Câu lệnh INSERT INTO được dùng để thiết lập điều kiện truy xuất.
+
+· d. Câu lệnh INSERT INTO được dùng để xóa các dòng ra khỏi bảng
+
+· c. Câu lệnh INSERT INTO được sử dụng để cập nhật/sửa đổi dữ liệu đã có trong bảng
+
+Câu 98: Tìm cú pháp đúng của insert into .
+
+· *a. INSERT INTO Tên_bảng(tên_cột) VALUES(Giá_trị_tương_ứng)
+
+· c. INSERT INTO Tên_bảng VALUES(Giá_trị_tương_ứng)
+
+· b. INSERT INTO Tên_cột VALUES(Giá_trị_tương_ứng)
+
+Câu 99: Câu lệnh UPDATE được sử dụng :
+
+· d. Chọn dữ liệu từ một bảng và chèn nó vào một bảng khác nhau.
+
+· *a. Cập nhật hồ sơ hiện có trong một bảng
+
+· b. Trở lại chỉ có giá trị khác nhau trong một cột
+
+· c. Xoá các hàng trong một bảng
+
+Câu 100: Làm thế nào để chọn tất cả các bản ghi từ bảng Employees với giá trị trong cột FirstName bắt đầu bằng giá trị a ?
+
+· c. Select * from Employees where FirstName=’a’
+
+· *d. Select * from Employees where FirstName like ’a%’
+
+· b. Select * from Employees where FirstName like ’%a’
+
+· a. Select * from Employees where FirstName=’%a%’
+
+Câu 101: Truy vấn lồng phân cấp là ?
+
+· c. Mệnh đề WHERE của truy vấn con tham chiếu ít nhất một thuộc tính của các quan hệ trong mệnh đề FROM ở truy vấn cha
+
+· d. Mệnh đề WHERE của truy vấn cha tham chiếu ít nhất một thuộc tính của các quan hệ trong mệnh đề FROM ở truy vấn con.
+
+· b. Mệnh đề WHERE của truy vấn cha không tham chiếu đến thuộc tính của các quan hệ trong mệnh đề FROM ở truy vấn con.
+
+· *a. Mệnh đề WHERE của truy vấn con không tham chiếu đến thuộc tính của các quan hệ trong mệnh đề FROM ở truy vấn cha .
+
+Câu 102: Cơ sở dữ liệu ‘‘QuanLyCuaHang’’có bảng: DmHangHoa(DmHangHoaID Nvarchar(50), TenHang Nvarchar(200), DmNhaSanXuatREF Nvarchar(50), TenHang Nvarchar(50)) Để chọn lọc thông tin: tên hàng, đơn vị tính của các mặt hàng. Ta thực hiện lệnh nào hợp lý nhất?
+
+· b. SELECT TenHang, TenHang FROM DmHangHoa
+
+· d. SELECT DISTINCT TenHang, TenHang FROM DmHangHoa WHERE DmHangHoaID
+
+· c. SELECT TOP N TenHang, TenHang FROM DmHangHoa
+
+· *a. SELECT DISTINCT TenHang, TenHang FROM DmHangHoa
+
+Câu 103: Cho biết đoạn mã sau thực hiện công việc gì: SELECT HoaDonBanHangID, NgayLapHoaDon , DmNhanVienREF, DmKhachHangREF, TongTienBanFROM HoaDonBanHang INNER JOIN DmKhachHangON HoaDonBanHang. DmKhachHangREF = DmKhachHang. DmKhachHangIDWHEREHoTenKhachHang = N‘Phạm Thu Vân’ AND YEAR(NgayLapHoaDon)=2011
+
+‘’Phạm Thu Vân’’ trong năm 2011
+
+· *c. Hiển thị thông tin của những hoá đơn bán cho khách hàng ‘’Phạm Thu Vân’’ trong năm 2011
+
+· a. Hiển thị thông tin của những hoá đơn bán cho từng khách hàng ‘’Phạm Thu Vân’’ trong từng năm 2011
+
+· d. Hiển thị thông tin của những hoá đơn bán cho tất cả các khách hàng trong năm 2011
+
+Câu 104: Cơ sở dữ liệu ‘‘QuanLyCuaHang’’có bảng: HoaDonBanHangChiTiet( HoaDonBanHangChiTietID Nvarchar(50), HoaDonBanHangFK Nvarchar(50), DmTenKhachHangREF Nvarchar(50), DmHangHoaREF Nvarchar(50), SoLuongBan Int, DonGiaBan Bigint, ThanhTienBan Bigint) Cho biết thông tin những mặt hàng bán được từ 10 sản phẩm trở lên?
+
+· c. SELECT * FROM HoaDonBanHangChiTiet WHERE SoLuongBan>10
+
+· a. SELECT * FROM HoaDonBanHangChiTiet WHERE SoLuongBan>=’10’
+
+· b. SELECT * TOP 10 FROM HoaDonBanHangChiTiet
+
+· *d. SELECT * FROM HoaDonBanHangChiTiet WHERE SoLuongBan>=10
+
+Câu 105: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: DiemKhoiA(SoBaoDanh Nvarchar(50), DiemToan Float, DiemLy Float, DiemHoa Float, DiemUuTien Float, TongDiem Float, KetQua Nvarchar) Câu lệnh sắp xếp danh sách thí sinh theo tổng điểm từ cao xuống thấp:
+
+· c. SELECT * FROM DiemKhoiA ORDER BY TongDiem/A
+
+· a. SELECT * FROM DiemKhoiA ORDER BY TongDiem Asc
+
+· *b. SELECT * FROM DiemKhoiA ORDER BY TongDiem Desc
+
+· d. SELECT * FROM DiemKhoiA ORDER BY TongDiem/D
+
+Câu 106: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: HoSoThiSinh(SoBaoDanh Nvarchar(50), HoDem Nvarchar(50), Ten Nvarchar(50), NgaySinh Date, KhuVuc Nvarchar(50), DoiTuong Nvarchar(50), KhoiThi Nvarchar(50), DiaChi Nvarchar(400), NguyenVong1 Nvarchar(200), NguyenVong2 Nvarchar(200)) đã được nhập dữ liệu. Viết câu lệnh cho biết thông tin những thí sinh có cùng họ tên là ‘‘Trần Bình Minh’’:
+
+· b. SELECT * FROM HoSoThiSinh WHERE HoVaTen = N‘Trần Bình Minh’
+
+· *c. SELECT * FROM HoSoThiSinh WHERE HoDem = N‘Trần Bình’ and Ten = N‘Minh’
+
+· a. SELECT HoDem, Ten FROM HoSoThiSinh WHERE HoDem = N‘Trần Bình’ and Ten = N‘Minh’
+
+· d. SELECT HoDem = N‘Trần Bình’ and Ten = N‘Minh’ FROM HoSoThiSinh
+
+Câu 107: Cơ sở dữ liệu ‘‘QuanLyCuaHang’’ có bảng: HoaDonBanHang( HoaDonBanHangID Nvarchar(50), NgayLapHoaDon Date, DmNhanVienREF Nvarchar(50), DmKhachHangREF Nvarchar(50), TongTienBan Bigint) Cho biết thông tin hoá đơn bán trong ngày 20/3/2011
+
+· d. SELECT * FROM HoaDonBanHang WHERE NgayLapHoaDon=‘2011/3/20’
+
+· b. SELECT * FROM HoaDonBanHang WHERE NgayLapHoaDon=‘20/3/2011’
+
+· *c. SELECT * FROM HoaDonBanHang WHERE NgayLapHoaDon=‘3/20/2011’
+
+· a. SELECT * FROM HoaDonBanHang WHERE NgayLapHoaDon= ‘‘20/3/2011’’
+
+Câu 108: Lấy tất cả nhân viên có ngày sinh trong tháng 5
+
+· b. SELECT NV.HOTEN FROM NHANVIEN AS NV WHERE MONTH(NV.NGAYSINH) < 5
+
+· d. SELECT NV.HOTEN FROM NHANVIEN AS NV WHERE MONTH(NV.NGAYSINH) =< 5
+
+· c. SELECT NV.HOTEN FROM NHANVIEN AS NV WHERE MONTH(NV.NGAYSINH)>=5
+
+· *a. SELECT NV.HOTEN FROM NHANVIEN AS NV WHERE MONTH(NV.NGAYSINH) = 5
+
+Câu 109: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: HoSoThiSinh(SoBaoDanh Nvarchar(50), HoDem Nvarchar(50), Ten Nvarchar(50), NgaySinh Date, KhuVuc Nvarchar(50), DoiTuong Nvarchar(50), KhoiThi Nvarchar(50), DiaChi Nvarchar(400), NguyenVong1 Nvarchar(200), NguyenVong2 Nvarchar(200)) đã được nhập dữ liệu. Viết câu lệnh tính số lượng thí sinh thi khối A?
+
+· c. SELECT count(*) FROM HoSoThiSinh WHERE KhoiThi= ‘A’
+
+· d. SELECT KhoiThi , count(KhoiThi) = ‘A’ FROM HoSoThiSinh
+
+· a. SELECT sum(*) FROM HoSoThiSinh WHERE KhoiThi= ‘A’
+
+· *b. SELECT KhoiThi , count(*) FROM HoSoThiSinh WHERE KhoiThi= ‘A’
+
+Câu 110: Cơ sở dữ liệu ‘‘QuanLyCuaHang’’có bảng: DmHangHoa(DmHangHoaID Nvarchar(50), TenHang Nvarchar(200),
+
+DmNhaSanXuatREF Nvarchar(50), DonViTinh Nvarchar(50)) Cho biết nhà tổng số lượng các mặt hàng?
+
+· a. SELECT count(*) as SoLuongMatHang FROM DmHangHoa GROUP BY DmHangHoaID
+
+· *c. SELECT count(*) as SoLuongMatHang FROM DmHangHoa
+
+· b. SELECT count(*) as SoLuongMatHang FROM DmHangHoa WHERE DmHangHoaID
+
+· d. SELECT sum(*) SoLuongMatHang FROM DmHangHoa
+
+Câu 111: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: HoSoThiSinh(SoBaoDanh Nvarchar(50), HoDem Nvarchar(50), Ten Nvarchar(50), NgaySinh Date, KhuVuc Nvarchar(50), DoiTuong Nvarchar(50), KhoiThi Nvarchar(50), DiaChi Nvarchar(400), NguyenVong1 varchar(200), NguyenVong2 Nvarchar(200)) đã được nhập dữ liệu. Thực hiện câu lệnh sửa tên của thí sinh có số báo danh ‘‘DQKD.2789’’ là ‘‘Hằng’’ thành ‘‘Hạnh’’ :
+
+· . EDIT Ten=N‘Hằng’ TO Ten=N‘Hạnh’ WHERE SoBaoDanh= ‘DQKD.2789’
+
+· *. UPDATE HoSoThiSinh SET Ten=N‘Hạnh’ WHERE SoBaoDanh= ‘DQKD.2789’
+
+· . UPDATE HoSoThiSinh SET Ten=N‘‘Hạnh’’ WHERE SoBaoDanh= ‘‘DQKD.2789’’
+
+· . UPDATE Ten=N‘Hằng’ TO Ten=N‘Hạnh’ WHERE SoBaoDanh= ‘DQKD.2789’
+
+Câu 112: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: DiemKhoiA(SoBaoDanh Nvarchar(50), DiemToan Float, DiemLy Float, DiemHoa Float, DiemUuTien Float, TongDiem Float, KetQua Nvarchar(50)) Câu lệnh cho biết với mỗi loại tổng điểm có bao nhiêu thí sinh?
+
+· *d. SELECT TongDiem, count(*) FROM DiemKhoiA GROUP BY TongDiem
+
+· . SELECT TongDiem, count(*) FROM DiemKhoiA WHERE TongDiem = count(TongDiem)
+
+· . SELECT TongDiem, count(*) FROM DiemKhoiA WHERE TongDiem
+
+· . SELECT count(TongDiem) FROM DiemKhoiA
+
+Câu 113: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: DiemKhoiA(SoBaoDanh Nvarchar(50), DiemToan Float, DiemLy Float, DiemHoa Float, DiemUuTien Float, TongDiem Float, KetQua Nvarchar(50))
+
+Sử dụng câu lệnh hợp lý để đếm số thí sinh của từng loại tổng điểm cho những thí sinh có kết quả đỗ:
+
+· *. SELECT TongDiem, count(*) FROM DiemKhoiA WHERE KetQua = ‘đỗ’ GROUP BY TongDiem
+
+· . SELECT TongDiem, count(*) FROM DiemKhoiA GROUP BY TongDiem WHERE KetQua = ‘đỗ’
+
+· . SELECT TongDiem, count(*) FROM DiemKhoiA GROUP BY TongDiem = count(TongDiem) WHERE KetQua = ‘đỗ’
+
+· . SELECT TongDiem, count(*) FROM DiemKhoiA WHERE KetQua = ‘đỗ’
+
+Câu 114: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: HoSoThiSinh(SoBaoDanh Nvarchar(50), HoDem Nvarchar(50), Ten Nvarchar(50), NgaySinh Date, KhuVuc Nvarchar(50), DoiTuong Nvarchar(50), KhoiThi Nvarchar(50), DiaChi Nvarchar(400), NguyenVong1 Nvarchar(200), NguyenVong2 Nvarchar(200)) đã được nhập dữ liệu. Muốn biết thông tin thí sinh có địa chỉ ở các tỉnh: Nghệ An, Hà Tĩnh, Quảng Bình. Ta thực hiện lệnh?
+
+· . SELECT * FROM HoSoThiSinh WHERE DiaChi IN(N‘Nghệ An’, N‘Hà Tĩnh’, N‘Quảng Bình’)
+
+· *. SELECT * FROM HoSoThiSinh WHERE right(DiaChi,7)= N‘Nghệ An’ or right(DiaChi,7)= N‘Hà Tĩnh’ or right(DiaChi,10)= N‘Quảng Bình’
+
+· .SELECT * FROM HoSoThiSinh WHERE DiaChi Like (‘%Nghệ An’, ‘%Hà Tĩnh’, ‘%Quảng Bình’)
+
+· . SELECT * FROM HoSoThiSinh WHERE right(DiaChi,7)= N‘Nghệ An’ and right(DiaChi,7)= N‘Hà Tĩnh’ and right(DiaChi,10)= N‘Quảng Bình’
+
+Câu 115: Cơ sở dữ liệu ‘‘QuanLyTuyenSinh’’có bảng: HoSoThiSinh(SoBaoDanh Nvarchar(50), HoDem Nvarchar(50), Ten Nvarchar(50), NgaySinh Date, KhuVuc Nvarchar(50), DoiTuong Nvarchar(50), KhoiThi Nvarchar(50), DiaChi Nvarchar(400), NguyenVong1 Nvarchar(200), NguyenVong2 Nvarchar(200)) đã được nhập dữ liệu. Viết câu lệnh tính số lượng thí sinh thi khối D
+
+· b. SELECT sum(*) FROM HoSoThiSinh WHERE KhoiThi= ‘D’
+
+· c. SELECT count(*) FROM HoSoThiSinh WHERE KhoiThi= ‘D’
+
+· a. SELECT KhoiThi , count(KhoiThi) = ‘D’ FROM HoSoThiSinh
+
+· *d. SELECT KhoiThi , count(*) FROM HoSoThiSinh WHERE KhoiThi= ‘D’
+
+Câu 116: Cho bảng dữ liệu NHAN VIEN với các cột như sau: MANV, HOTEN, NGAYSINH. Lọc những nhân viên có năm sinh nhỏ hơn 1987?
+
+· a. HOTEN FORM NHANVIEN WHERE YEAR <1983
+
+· *c. SELECT NHANVIEN.HOTEN FROM NHANVIEN WHERE YEAR(NHANVIEN.NGAYSINH) < 1983
+
+· b. SELECT HOTEN.NV FORM NV WHERE YEAR(NGAYSINH.NV)<1983
+
+Câu 117: Cho bảng dữ liệu NHAN VIEN với các cột như sau: MANV, HOTEN, NGAYSINH. Cú pháp lệnh sau sẽ cho ta kết quả gì? SELECT NHANVIEN.HOTEN FROM NHANVIEN WHERE MONTH(NHANVIEN.NGAYSINH) = 5
+
+· b. Hiển thị HOTEN của một ngừoi sinh tháng 5
+
+· c. Hiển thị MANV của tất cả sinh tháng 5
+
+· d. Hiển thị MANV của một người sinh tháng 5
+
+· *a. Hiển thị HOTEN của tất cả người sinh tháng 5
+
+Câu 118: Lấy nhân viên có năm sinh nhỏ hơn 1983
+
+· d. SELECT NV.HOTEN FROM NHANVIEN AS NV WHERE YEAR(NV.NGAYSINH)= < 1983
+
+· b. SELECT NV.HOTEN FROM NHANVIEN AS NV WHERE YEAR(NV.NGAYSINH) =1983
+
+· c. SELECT NV.HOTEN FROM NHANVIEN AS NV WHERE YEAR(NV.NGAYSINH) >1983
+
+· *a. SELECT NV.HOTEN FROM NHANVIEN AS NV WHEREYEAR(NV.NGAYSINH) < 1983
+    </p>
+</body>
+</html>
