@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1{
+    color: saddlebrown;
+    text-align: center;
+
+}
+.my-dog{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.content-dog{
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 25%;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px red;
+}
+.content-dog img{
+    width: 100%;
+    height: auto;
+}
+.info-dog{
+    padding: 10px;
+    text-align: center;
+    color: red;
+}
