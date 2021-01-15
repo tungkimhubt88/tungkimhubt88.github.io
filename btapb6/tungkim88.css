@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 h1{
     color: saddlebrown;
@@ -22,6 +23,9 @@ h1{
     width: 25%;
     padding: 10px;
     box-shadow: 1px 1px 1px 1px red;
+    transition: all;
+    transition-duration: 2s;
+    border-radius: 2px;
 }
 .content-dog img{
     width: 100%;
@@ -31,4 +35,7 @@ h1{
     padding: 10px;
     text-align: center;
     color: red;
+}
+.content-dog img:hover{
+    transform: rotate(4deg);
 }
