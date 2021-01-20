@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+        }
+        td{
+            width: 200px;
+        }
+        tr:nth-child(odd){
+            background-color: pink;
+        }
+        tr:nth-child(even){
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>STT</th>
+            <th>Họ Tên</th>
+            <th>Số Điện Thoại</th>
+            <th>Ghi Chú</th>
+            <!-- th để in đậm  -->
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Kim Thanh Tùng</td>
+            <td colspan="2">0397652518</td>
+            <!-- colspan để ghép 2 ô -->
+            <!-- <td>Đã đầy đủ</td> -->
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Kim Trọng Nghĩa</td>
+            <td rowspan="">0977132789</td>
+            <td>Đã đầy đủ</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Lê Thị Hiền</td>
+            <td>0398890278</td>
+            <td>Đã đầy đủ</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Kim Trọng Xuyên</td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td></td>
+            <td></td>
+            <td>Không có tên và số điện thoại</td>
+        </tr>
+    </table>
+</body>
+</html>
