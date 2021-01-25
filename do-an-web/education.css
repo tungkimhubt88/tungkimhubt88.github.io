@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style-type: none;
+}
+.timeline-edu{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.timeline{
+    position: relative;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+.timeline::before{
+    background: #eeeeee;
+  bottom: 0;
+  content: '';
+  left: 20%;
+  margin-left: -6px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+.timeline li{
+    position: relative;
+}
+.timeline li .timeyear{
+    display: block;
+    padding-right: 100px;
+    position: absolute;
+    width: 25%;
+}
+.timeline li .timeyear span{
+    display: block;
+  text-align: right;
+  font-family: 'Oswald', sans-serif;
+  color: #333333;
+  font-size: 22px;
+}
+.timeline li .timelabel{
+    border-radius: 5px;
+    border: 2px solid #eeeeee;
+    line-height: 25px;
+    margin: 0 0 50px 220px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 3px 3px 3px 3px #eeeeee;
+}
+.timeline li .timelabel h3{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: #555555;
+}
+.timeline li .timelabel .school{
+    color: #f9bf3b;
+    margin: 0px 0px 5px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.timeline li .timelabel::after{
+    right: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-right-color: #eee;
+  border-width: 10px;
+  top: 7px;
+}
+.timeline li .timeicon{
+    background-color: #f9bf3b;
+    transform: rotate(45deg);
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  left: 20%;
+  line-height: 40px;
+  margin: 0 0 0 -25px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+.timeline li .timeicon i{
+    font-size: 20px;
+  transform: rotate(-45deg);
+}

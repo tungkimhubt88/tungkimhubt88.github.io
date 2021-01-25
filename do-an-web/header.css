@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+.header{
+    position: relative;
+    color:#fff;
+    /* z-index:1; */
+}
+.header img{
+    width:100%;
+    height: 600px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.header .overlay {
+    background-color: rgba(4,14,22,.83);
+}
+.header .overlay,
+.header .content {
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height: 600px;
+    text-align: center;
+}
+.header .menu {
+    display:flex;
+    justify-content: space-around;
+    width:60%;
+    margin:0 auto;
+}
+.header .menu li {
+    display:inline-block;
+    margin-top:40px;
+}
+.header  li a {
+    font-size:20px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
+.header .info1{
+    font-style: italic;
+    margin:120px 0 60px 0;
+    font-size:100px;
+    letter-spacing: 4px;
+}
+.header .sologan {
+    width:100%;
+    margin:0 auto;
+    font-size:30px;
+    font-weight: 500;
+    color: #f9bf3b;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.header .sologan::before{
+    animation: changesologan 5s linear infinite alternate;
+    content: " ";
+}
+@keyframes changesologan{
+    0%{
+        content:"Tôi là tùng kim";
+    }
+    20% {
+        content:"Vĩnh phúc / 88";
+    }
+    40%{
+        content:"sinh viên hubt";
+    }
+    60%{
+        content:"Trung tâm techmaster VN";
+    }
+    80%{
+        content: "Java Spring Boot FUllstack";
+    }
+    100%{
+        content: "đam mê,học hỏi";
+    }
+}
+.header .hicky{
+    position: absolute;
+    border-top: 40px solid rgba(4,14,22,1);
+    border-left:40px solid rgba(4,14,22,0);
+    border-right:40px solid rgba(4,14,22,0);
+    bottom:0;
+    left:50%;
+    transform: translate(-50%,100%);
+
+}
+.content .menu li:hover a{
+    color: #f9bf3b;
+}

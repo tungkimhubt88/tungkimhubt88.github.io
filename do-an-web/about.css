@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style-type: none;
+}
+.about , .education, .spht ,.withme {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+}
+.title-icon{
+    display: block;
+}
+ .icon{
+    background: #f9bf3b;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+#iconnn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   font-size: 20px;
+   color: white;
+}
+.info2{
+    font-weight: 400;
+    padding-top: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #555555;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+}
+.info2::before{
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 1px solid #f9bf3b;
+    border-bottom: 1px solid #f9bf3b;
+    width: 50px;
+    margin-left: -65px;
+    bottom: 13%;
+}
+.info2::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 1px solid #f9bf3b;
+    border-bottom: 1px solid #f9bf3b;
+    width: 50px;
+    margin-left: 15px;
+    bottom: 13%;
+}
+.marque{
+    width: 70%;
+    margin: auto;
+    border: solid #cccccc;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px #cccccc;
+    margin-top: 50px;
+}
+
+.text{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px ;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 3px 3px 3px 3px #7c7a7a;
+}
+.text-rv{
+    font-family: "Lato", sans-serif;
+    padding: 30px ;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2;
+    border-radius: 10px;
+    border-bottom: 1px solid #cccccc;
+    color: #7c7a7a;
+    font-style: italic;
+}
+.text-more{
+    padding: 20px;
+    text-align: center;
+}
+.icon-more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-more a{
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.icon-more a:hover{
+    color: #f9bf3b;
+}
