@@ -99,7 +99,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.icon-more a{
+.icon-more {
     color: #333333;
     text-transform: uppercase;
     font-size: 25px;
